@@ -14,7 +14,7 @@ party_issues = {
 	}
 	economic_policy = {
 		laissez_faire = {
-			min_social_spending = 0.25
+			min_social_spending = 0.5
 			max_tax = 0.5
 			factory_owner_cost = 0.3
 			factory_output = 0.3
