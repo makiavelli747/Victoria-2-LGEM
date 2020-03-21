@@ -253,6 +253,10 @@ promote_to =
 				economic_policy = planned_economy
 			}
 		}
+		modifier = {
+			factor = -100
+			state_scope = { capitalists = 0.02 }
+		}
 
 		modifier = {
 			factor = -1

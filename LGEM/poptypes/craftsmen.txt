@@ -626,11 +626,11 @@ promote_to =
 				recruited_percentage = 0.40
 			}
 			modifier = {
-				factor = 0.5
+				factor = 1
 				recruited_percentage = 0.50
 			}
 			modifier = {
-				factor = 0.5
+				factor = 1
 				recruited_percentage = 0.60
 			}
 		}
@@ -679,23 +679,23 @@ promote_to =
 		}
 		group = {
 			modifier = {
-				factor = -2
+				factor = -1
 				soldiers = 0.005
 			}
 			modifier = {
-				factor = -2
+				factor = -1
 				soldiers = 0.01
 			}
 			modifier = {
-				factor = -2
+				factor = -1
 				soldiers = 0.015
 			}
 			modifier = {
-				factor = -2
+				factor = -1
 				soldiers = 0.02
 			}
 			modifier = {
-				factor = -2
+				factor = -1
 				soldiers = 0.025
 			}
 			modifier = {
@@ -722,6 +722,10 @@ promote_to =
 	}
 	clerks = {
 		factor = 0.01
+			modifier = {
+				factor = -100
+				state_scope = { clerks = 0.12 }
+			}
 	
 			modifier = {
 				factor =  -50
@@ -847,7 +851,7 @@ promote_to =
 		}
 		modifier = {
 			factor = 5
-			not = { luxury_needs = 0.1 }
+			luxury_needs = 0.1
 		}
 		modifier = {
 			factor = 1.2

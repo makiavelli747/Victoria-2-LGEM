@@ -241,6 +241,10 @@ promote_to =
 
 	clerks = {
 		factor = 0.01
+			modifier = {
+				factor = -100
+				state_scope = { clerks = 0.12 }
+			}
 	
 			modifier = {
 				factor =  -50
@@ -778,6 +782,10 @@ promote_to =
 	capitalists = 
 	{
 		factor = 0.1
+		modifier = {
+			factor = -100
+			state_scope = { capitalists = 0.02 }
+		}
 		modifier = {
 			factor = -100
 			country = {
