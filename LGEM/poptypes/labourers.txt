@@ -249,7 +249,7 @@ promote_to =
 	}
 		artisans =
 	{
-		factor = 0.01
+		factor = 0.1
 			modifier = {
 				factor = 1
 				not = { literacy = 0.1 }
