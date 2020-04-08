@@ -114,11 +114,7 @@ promotion_chance =
 demotion_chance = 
 {
 	factor = 1
-	modifier = {
-		factor = 1000
-		strata = rich
-		economic_policy = planned_economy
-	}
+	
 	modifier = {
 		factor = -0.1
 		not = { religion = this }
