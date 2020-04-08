@@ -35,10 +35,10 @@ battleship = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		steamer_convoy = 2.4
-		artillery = 1.2
-		canned_food = 1.2
-		coal = 5
+		steamer_convoy = 4.8
+		artillery = 2.4
+		canned_food = 2.4
+		coal = 10
 	}
 	
 	#Naval Abilties
