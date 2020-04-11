@@ -4,7 +4,7 @@ engineer = {
 	type = land
 	sprite = Engineer
 	active = no
-	unit_type = infantry
+	unit_type = special
 	#Core Abilities
 	priority = 15
 	max_strength = 3
@@ -25,10 +25,10 @@ engineer = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		small_arms = 0.14 #0.01
-		ammunition = 0.18 # 0
-		canned_food = 0.14 # 0.02
-		explosives = 0.2
+		small_arms = 0.012 #0.01
+		ammunition = 0.1 # 0
+		canned_food = 0.06 # 0.02
+		explosives = 0.05
 	}
 	
 
