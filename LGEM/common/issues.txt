@@ -5,10 +5,10 @@ party_issues = {
 	trade_policy = {
 		protectionism = {
 			max_tariff = 1
-			min_tariff = 0.25
+			min_tariff = 0.3
 		}
 		free_trade = {
-			max_tariff = 0.25
+			max_tariff = 0.3
 			min_tariff = -1
 		}
 	}
@@ -42,6 +42,7 @@ party_issues = {
 		interventionism = {
 			min_social_spending = 0.65
 			max_tax = 0.65
+			min_tax = 0.15
 			factory_owner_cost = 0.5
 			factory_output = 0.2
 			factory_throughput = 0.1
@@ -70,6 +71,7 @@ party_issues = {
 		state_capitalism = {
 			min_social_spending = 0.80
 			max_tax = 0.80
+			min_tax = 0.3
 			factory_output = 0.1
 			factory_throughput = 0.2
 			factory_owner_cost = 0.8
@@ -92,6 +94,7 @@ party_issues = {
 			}
 		}
 		planned_economy = {
+			min_tax = 0.5
 			min_social_spending = 1
 			factory_throughput = 0.3
 			factory_owner_cost = -1	#negative costs, can't build.
@@ -136,6 +139,7 @@ party_issues = {
 		limited_citizenship = {
 			rules = { culture_voting = yes }
 			global_assimilation_rate = 0.10
+
 		}
 		full_citizenship = {
 			rules = { all_voting = yes }
@@ -144,8 +148,7 @@ party_issues = {
 	}
 	war_policy = {
 		jingoism = {
-			min_military_spending = 0.25
-			supply_consumption = 0.25
+			supply_consumption = 0.5
 			war_exhaustion_effect = 0.5
 			is_jingoism = yes
 			cb_generation_speed_modifier = 0.3
@@ -154,7 +157,7 @@ party_issues = {
 			reinforce_speed = 0.5
 		}
 		pro_military = {
-			min_military_spending = 0.25
+			supply_consumption = 0.25
 			war_exhaustion_effect = 0.7
 			cb_generation_speed_modifier = 0.2
 			mobilization_impact = 3
