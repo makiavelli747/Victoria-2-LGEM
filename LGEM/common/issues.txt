@@ -148,7 +148,7 @@ party_issues = {
 	}
 	war_policy = {
 		jingoism = {
-			supply_consumption = 0.5
+			supply_consumption = 0.25
 			war_exhaustion_effect = 0.5
 			is_jingoism = yes
 			cb_generation_speed_modifier = 0.3
@@ -157,7 +157,6 @@ party_issues = {
 			reinforce_speed = 0.5
 		}
 		pro_military = {
-			supply_consumption = 0.25
 			war_exhaustion_effect = 0.7
 			cb_generation_speed_modifier = 0.2
 			mobilization_impact = 3
