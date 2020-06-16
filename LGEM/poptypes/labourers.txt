@@ -7,7 +7,7 @@ equivalent = farmers
 
 
 everyday_needs = {
-	paper = 1
+	paper = 2
 	glass = 1
 	cotton = 2
 	timber = 4
