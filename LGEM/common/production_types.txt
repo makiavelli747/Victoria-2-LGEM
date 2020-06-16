@@ -33,7 +33,7 @@ factory_template = {
 
 cheap_factory_template = {
 	efficiency = {
-		machine_parts = 0.12 #if no cement, work at 75% efficiency #cost = £4/level
+		machine_parts = 0.12 #if no cement, work at 75% efficiency #cost = Â£4/level
 		
 	}
 	
@@ -851,7 +851,7 @@ sulphur_mine = {
 tea_plantation = {
 	template = RGO_template_farmers
 	output_goods = tea 
-	value = 3.5
+	value = 3
 	farm = yes
 }
 
