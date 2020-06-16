@@ -61,6 +61,7 @@ luxury_needs = {
 	furniture = 6
 	liquor = 3
 	paper = 2.0
+	wine = 1
 	telephones = 2.0
 	automobiles = 1
 	radio = 2.0
