@@ -34,6 +34,8 @@ luxury_needs_income =
 
 
 everyday_needs = {
+	cotton = 2
+	timber = 4
 	tea = 10
 	tobacco = 1
 	coal = 2
