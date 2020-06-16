@@ -7,7 +7,7 @@ equivalent = farmers
 
 
 everyday_needs = {
-	tea = 8
+	tea = 10
 	coal = 2
 	liquor = 6
 	regular_clothes = 2.4

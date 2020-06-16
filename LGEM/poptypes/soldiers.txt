@@ -34,7 +34,7 @@ luxury_needs_income =
 
 
 everyday_needs = {
-	tea = 8
+	tea = 10
 	coal = 2
 	liquor = 4
 	regular_clothes = 2
