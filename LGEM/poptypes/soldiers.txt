@@ -34,6 +34,7 @@ luxury_needs_income =
 
 
 everyday_needs = {
+	paper = 1
 	glass = 1
 	cotton = 2
 	timber = 4
