@@ -8,6 +8,7 @@ strata = poor
 
 
 everyday_needs = {
+	glass = 1
 	cotton = 2
 	timber = 4
 	tea = 10
