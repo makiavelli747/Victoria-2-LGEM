@@ -16,6 +16,8 @@ rebel =
 }
 
 everyday_needs = {
+	tea = 10
+	glass = 3
 	coal = 1
 	paper = 10
 	luxury_clothes = 3
