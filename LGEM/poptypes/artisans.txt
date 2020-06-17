@@ -29,7 +29,7 @@ luxury_needs = {
 
 everyday_needs = {
 	cotton = 2
-	timber = 4
+	timber = 2
 	coal = 1
 	steel = 2
 	liquor = 5
