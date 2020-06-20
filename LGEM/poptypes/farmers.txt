@@ -8,15 +8,14 @@ equivalent = labourers
 everyday_needs = {
 	paper = 5
 	glass = 1
-	cotton = 2
-	timber = 2
+	timber = 1
 	tea = 10
 	tobacco = 1
-	coal = 2
+	coal = 1
 	liquor = 6
 	regular_clothes = 2.4
 	furniture = 2.2
-	steel = 2
+	steel = 1
 	fertilizer = 1 #0
 }
 
