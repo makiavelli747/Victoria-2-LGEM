@@ -212,11 +212,11 @@ demotion_chance =
 	group = {
 		modifier = {
 			factor = 0.1
-			not = { luxury_needs = 0.1 }
+			not = { everyday_needs = 0.75 }
 		}
 		modifier = {
 			factor = 0.1
-			not = { luxury_needs = 0.5 }
+			not = { everyday_needs = 1.0 }
 		}
 	}
 		modifier = {
