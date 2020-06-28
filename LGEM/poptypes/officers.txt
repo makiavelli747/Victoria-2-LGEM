@@ -35,6 +35,7 @@ luxury_needs_income = {
 
 luxury_needs = {
 	opium = 1.0
+	small_arms = 1
 	luxury_clothes = 1
 	luxury_furniture = 1
 	telephones = 1.25
