@@ -78,7 +78,6 @@ promotion_chance =
 		modifier = {
 			factor = 0.1
 			luxury_needs = 0.25
-			strata = poor
 		}
 
 
