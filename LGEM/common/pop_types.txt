@@ -530,22 +530,22 @@ emigration_chance =
 
 	group = {
 		modifier = {
-			factor = 0.1
+			factor = 0.2
 			unemployment = 0.05
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.2
 			unemployment = 0.1
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.2
 			unemployment = 0.15
 		}
 		
 	}
 	modifier = {
 		factor = -0.2
-		agree_with_ruling_party = 0.2
+		agree_with_ruling_party = 0.4
 	}
 
 	modifier = {
