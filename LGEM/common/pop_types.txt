@@ -299,6 +299,14 @@ migration_chance =
 	group = {
 		modifier = {
 			factor = -0.1
+			not = { consciousness = 4 }
+		}
+		modifier = {
+			factor = -0.1
+			not = { consciousness = 5 }
+		}
+		modifier = {
+			factor = -0.1
 			not = { consciousness = 6 }
 		}
 		modifier = {
@@ -318,15 +326,15 @@ migration_chance =
 
 	group = {
 		modifier = {
-			factor = 0.1
+			factor = 0.3
 			not = { everyday_needs = 0.5 }
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.3
 			not = { everyday_needs = 0.25 }
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.3
 			not = { everyday_needs = 0.1 }
 		}
 	}
@@ -383,6 +391,14 @@ colonialmigration_chance =
 	group = {
 		modifier = {
 			factor = -0.1
+			not = { consciousness = 4 }
+		}
+		modifier = {
+			factor = -0.1
+			not = { consciousness = 5 }
+		}
+		modifier = {
+			factor = -0.1
 			not = { consciousness = 6 }
 		}
 		modifier = {
@@ -400,15 +416,15 @@ colonialmigration_chance =
 	}
 	group = {
 		modifier = {
-			factor = 0.1
+			factor = 0.3
 			not = { everyday_needs = 0.5 }
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.3
 			not = { everyday_needs = 0.25 }
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.3
 			not = { everyday_needs = 0.1 }
 		}
 	}
@@ -446,28 +462,36 @@ emigration_chance =
 	group = {
 
 		modifier = {
-			factor = 0.2
+			factor = 0.3
 			militancy = 5
 		}
 		modifier = {
-			factor = 0.2
+			factor = 0.3
 			militancy = 6
 		}
 		modifier = {
-			factor = 0.2
+			factor = 0.3
 			militancy = 7
 		}
 		modifier = {
-			factor = 0.2
+			factor = 0.3
 			militancy = 8
 		}
 		modifier = {
-			factor = 0.2
+			factor = 0.3
 			militancy = 9
 		}
 	}
 
 	group = {
+		modifier = {
+			factor = -0.1
+			not = { consciousness = 4 }
+		}
+		modifier = {
+			factor = -0.1
+			not = { consciousness = 5 }
+		}
 		modifier = {
 			factor = -0.1
 			not = { consciousness = 6 }
@@ -484,15 +508,15 @@ emigration_chance =
 
 	group = {
 		modifier = {
-			factor = 0.1
+			factor = 0.3
 			not = { everyday_needs = 0.5 }
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.3
 			not = { everyday_needs = 0.25 }
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.3
 			not = { everyday_needs = 0.1 }
 		}
 	}
@@ -507,11 +531,11 @@ emigration_chance =
 
 	group = {
 		modifier = {
-			factor = 0.2
+			factor = 0.3
 			unemployment = 0.05
 		}
 		modifier = {
-			factor = 0.2
+			factor = 0.3
 			unemployment = 0.1
 		}
 		modifier = {
@@ -521,18 +545,18 @@ emigration_chance =
 		
 	}
 	modifier = {
-		factor = -0.2
-		agree_with_ruling_party = 0.25
+		factor = -0.3
+		agree_with_ruling_party = 0.3
 	}
 
 	modifier = {
-		factor = 0.1
+		factor = 0.3
 		country = { religious_policy = moralism }
 		not = { religion = this }
 	}
 
 	modifier = {
-		factor = 0.1
+		factor = 0.3
 		country = { citizenship_policy = residency }
 		not = { culture = this }
 	}
@@ -559,11 +583,11 @@ assimilation_chance =
 	group = {
 		modifier = {
 			factor = 0.1
-			literacy = 0.6
+			literacy = 0.4
 		}
 		modifier = {
 			factor = 0.1
-			literacy = 0.7
+			literacy = 0.6
 		}
 		modifier = {
 			factor = 0.1
