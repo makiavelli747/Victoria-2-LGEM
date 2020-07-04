@@ -508,14 +508,6 @@ emigration_chance =
 	group = {
 		modifier = {
 			factor = 0.3
-			not = { everyday_needs = 0.9 }
-		}
-		modifier = {
-			factor = 0.3
-			not = { everyday_needs = 0.75 }
-		}
-		modifier = {
-			factor = 0.3
 			not = { everyday_needs = 0.5 }
 		}
 		modifier = {
