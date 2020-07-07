@@ -318,15 +318,15 @@ migration_chance =
 	group = {
 		modifier = {
 			factor = 0.2
-			not = { everyday_needs = 0.75 }
-		}
-		modifier = {
-			factor = 0.2
 			not = { everyday_needs = 0.5 }
 		}
 		modifier = {
 			factor = 0.2
 			not = { everyday_needs = 0.25 }
+		}
+		modifier = {
+			factor = 0.2
+			not = { everyday_needs = 0.1 }
 		}
 	}
 
@@ -400,15 +400,15 @@ colonialmigration_chance =
 	group = {
 		modifier = {
 			factor = 0.2
-			not = { everyday_needs = 0.75 }
-		}
-		modifier = {
-			factor = 0.2
 			not = { everyday_needs = 0.5 }
 		}
 		modifier = {
 			factor = 0.2
 			not = { everyday_needs = 0.25 }
+		}
+		modifier = {
+			factor = 0.2
+			not = { everyday_needs = 0.1 }
 		}
 	}
 
@@ -484,15 +484,15 @@ emigration_chance =
 	group = {
 		modifier = {
 			factor = 0.2
-			not = { everyday_needs = 0.75 }
-		}
-		modifier = {
-			factor = 0.2
 			not = { everyday_needs = 0.5 }
 		}
 		modifier = {
 			factor = 0.2
 			not = { everyday_needs = 0.25 }
+		}
+		modifier = {
+			factor = 0.2
+			not = { everyday_needs = 0.1 }
 		}
 	}
 
