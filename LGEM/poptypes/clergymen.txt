@@ -53,6 +53,7 @@ everyday_needs = {
 	glass = 2
 	tobacco = 5
 	tea = 10
+	coffee = 2
 }
 
 life_needs = {
