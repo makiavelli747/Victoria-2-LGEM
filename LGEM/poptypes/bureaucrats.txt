@@ -43,7 +43,8 @@ luxury_needs = {
 	aeroplanes = 0.4
 	radio = 1.0
 	fuel = 1
-	coffee = 2
+	tobacco = 5
+	coffee = 5
 }
 
 everyday_needs = {

@@ -24,7 +24,7 @@ everyday_needs = {
 	luxury_furniture = 3
 	wine = 10
 	tobacco = 10 
-	coffee = 5
+	coffee = 10
 }
 
 life_needs = {
@@ -44,11 +44,13 @@ luxury_needs = {
 	aeroplanes = 5
 	radio = 10
 	fuel = 10 
-	clipper_convoy = 2
-	steamer_convoy = 2
+	clipper_convoy = 1
+	steamer_convoy = 1
 	luxury_clothes = 2
 	luxury_furniture = 2
 	wine = 20
+	tobacco = 10 
+	coffee = 10
 }
 
 

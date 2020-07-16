@@ -51,6 +51,8 @@ luxury_needs = {
 	clipper_convoy = 20
 	steamer_convoy = 20
 	wine = 100
+	tobacco = 100 
+	coffee = 100
 }
 
 

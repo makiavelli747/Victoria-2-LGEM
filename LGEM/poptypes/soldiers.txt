@@ -37,7 +37,7 @@ everyday_needs = {
 	paper = 2
 	glass = 1
 	tea = 10
-	tobacco = 1
+	tobacco = 2
 	coal = 1
 	liquor = 4
 	regular_clothes = 3
@@ -66,7 +66,7 @@ luxury_needs = {
 	automobiles = 1
 	radio = 2.0
 	fuel = 1
-	coffee = 1
+	coffee = 2
 	tobacco = 2
 	#dye = 0.5
 }
