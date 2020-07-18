@@ -328,8 +328,7 @@ steamer_shipyard = {
 luxury_clothes_factory = {       
 	template = factory_template
 	input_goods = {   
-		regular_clothes = 0.9	#5.22
-		silk = 3.9		#39	total input+maint = 54
+		silk = 4.4		#39	total input+maint = 54
 	}
 	output_goods = luxury_clothes 
 	value = 1			#65
@@ -346,8 +345,7 @@ luxury_clothes_factory = {
 luxury_furniture_factory = {       
 	template = factory_template
 	input_goods = { 
-		furniture = 2	 	#45.08
-		tropical_wood = 7.5 #8.1	total input+maint = 53.18
+		tropical_wood = 8.5 #8.1	total input+maint = 53.18
 	}
 	output_goods = luxury_furniture 
 	value = 1.1			#64.9
@@ -1057,8 +1055,7 @@ artisan_steamer = {
 
 artisan_luxury_clothes = {       
 	input_goods = {   
-		regular_clothes = 0.9	#5.22
-		silk = 3.9		#39	total input+maint = 54
+		silk = 4.4		#39	total input+maint = 54
 	}
 	output_goods = luxury_clothes 
 	value = 1			#65
@@ -1076,8 +1073,7 @@ artisan_luxury_clothes = {
 
 artisan_luxury_furniture = {       
 	input_goods = { 
-		furniture = 2	 	#45.08
-		tropical_wood = 7.5 #8.1	total input+maint = 53.18
+		tropical_wood = 8.5 #8.1	total input+maint = 53.18
 	}
 	output_goods = luxury_furniture 
 	value = 1.1			#64.9
