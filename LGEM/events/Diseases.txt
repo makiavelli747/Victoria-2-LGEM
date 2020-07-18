@@ -204,7 +204,7 @@ country_event = {
 			organic_chemistry = 1
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.2
 			any_neighbor_country = {
 				has_country_modifier = pandemic_influenza
 			}
