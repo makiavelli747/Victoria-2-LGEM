@@ -367,7 +367,7 @@ promote_to =
 		
 		modifier = {
 			factor = -5
-			officers = 0.002
+			officers = 0.02
 		}		
 		group = {
 			modifier = {
