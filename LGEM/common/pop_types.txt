@@ -302,22 +302,22 @@ migration_chance =
 
 	group = {
 		modifier = {
-			factor = 0.2
+			factor = 0.1
 			not = { everyday_needs = 0.5 }
 		}
 		modifier = {
-			factor = 0.2
+			factor = 0.1
 			not = { everyday_needs = 0.25 }
 		}
 		modifier = {
-			factor = 0.2
+			factor = 0.1
 			not = { everyday_needs = 0.1 }
 		}
 	}
 
 
 	modifier = {
-		factor = -0.2
+		factor = -0.1
 		state_scope = {
 			has_factories = yes
 			}
@@ -371,22 +371,22 @@ colonialmigration_chance =
 	}
 	group = {
 		modifier = {
-			factor = 0.2
+			factor = 0.1
 			not = { everyday_needs = 0.5 }
 		}
 		modifier = {
-			factor = 0.2
+			factor = 0.1
 			not = { everyday_needs = 0.25 }
 		}
 		modifier = {
-			factor = 0.2
+			factor = 0.1
 			not = { everyday_needs = 0.1 }
 		}
 	}
 
 
 	modifier = {
-		factor = -0.2
+		factor = -0.1
 		state_scope = {
 			has_factories = yes
 			}
@@ -441,15 +441,15 @@ emigration_chance =
 
 	group = {
 		modifier = {
-			factor = 0.2
+			factor = 0.1
 			not = { everyday_needs = 0.5 }
 		}
 		modifier = {
-			factor = 0.2
+			factor = 0.1
 			not = { everyday_needs = 0.25 }
 		}
 		modifier = {
-			factor = 0.2
+			factor = 0.1
 			not = { everyday_needs = 0.1 }
 		}
 	}
@@ -471,18 +471,18 @@ emigration_chance =
 		
 	}
 	modifier = {
-		factor = -0.2
+		factor = -0.1
 		agree_with_ruling_party = 0.3
 	}
 
 	modifier = {
-		factor = 0.2
+		factor = 0.1
 		country = { religious_policy = moralism }
 		not = { religion = this }
 	}
 
 	modifier = {
-		factor = 0.2
+		factor = 0.1
 		country = { citizenship_policy = residency }
 		not = { culture = this }
 	}
