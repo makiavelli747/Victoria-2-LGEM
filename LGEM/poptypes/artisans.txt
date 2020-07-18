@@ -2423,7 +2423,7 @@ issues =
 		}
 	}
 	universal_weighted_voting = {
-		factor = 1
+		factor = 0
 		modifier = {
 			factor = 0
 			OR = {
@@ -2496,7 +2496,7 @@ issues =
 		}
 	}
 	universal_voting = {
-		factor = 1
+		factor = 0
 		modifier = {
 			factor = 0
 			OR = {

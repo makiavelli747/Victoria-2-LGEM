@@ -1935,7 +1935,7 @@ issues =
 	}
 
 	no_slavery = {
-		factor = 1
+		factor = 0
 		modifier = {
 			factor = 0 
 			country = {
@@ -2073,7 +2073,7 @@ issues =
 		}
 	}
 	wealth_weighted_voting = {
-		factor = 1
+		factor = 0
 		modifier = {
 			factor = 0
 			OR = {
@@ -2146,7 +2146,7 @@ issues =
 		}
 	}			
 	wealth_voting = {
-		factor = 0.9
+		factor = 0
 		modifier = {
 			factor = 0
 			OR = {
@@ -2219,7 +2219,7 @@ issues =
 		}
 	}
 	universal_weighted_voting = {
-		factor = 0.8
+		factor = 0
 		modifier = {
 			factor = 0
 			OR = {
@@ -2292,7 +2292,7 @@ issues =
 		}
 	}
 	universal_voting = {
-		factor = 0.7
+		factor = 0
 		modifier = {
 			factor = 0
 			OR = {
