@@ -12,17 +12,18 @@ everyday_needs = {
 	tea = 10
 	tobacco = 2
 	coffee = 1
-	coal = 1
+	coal = 2
 	liquor = 6
 	regular_clothes = 3
 	furniture = 2.2
+	iron = 1
 	steel = 1
 	explosives = 1
 }
 
 life_needs = {
-	cattle = 1.5
-	wool =  2
+	cattle = 2
+	wool =  3
 	fish =  2
 	fruit =  3
 	grain =  6

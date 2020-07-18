@@ -61,8 +61,8 @@ everyday_needs = {
 }
 
 life_needs = {
-	cattle = 1.5
-	wool =  2
+	cattle = 2
+	wool =  3
 	fish =  2
 	fruit =  3
 	grain =  6

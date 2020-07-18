@@ -21,6 +21,8 @@ can_build = yes
 
 everyday_needs = {
 	coal = 20
+	iron = 10
+	steel = 10
 	paper = 50
 	luxury_clothes = 20
 	luxury_furniture = 20
@@ -30,8 +32,8 @@ everyday_needs = {
 }
 
 life_needs = {
-	cattle = 1.5
-	wool =  2
+	cattle = 2
+	wool =  3
 	fish =  2
 	fruit =  3
 	grain =  6
