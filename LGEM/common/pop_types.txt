@@ -496,10 +496,6 @@ emigration_chance =
 	}
 	modifier = {
 		factor = -2.0
-		government = democracy
-	}
-	modifier = {
-		factor = -2.0
 		state_scope = { is_colonial = yes }
 	}
 }
