@@ -2901,7 +2901,7 @@ issues =
 		}
 	}
 	trinket_wage = { 
-		factor = 0.5
+		factor = 0
 		modifier = {
 			factor = 0 
 			OR = {
@@ -2997,7 +2997,7 @@ issues =
 		}		
 	}
 	low_minimum_wage = { 
-		factor = 0.5
+		factor = 0
 		modifier = {
 			factor = 0 
 			OR = {
@@ -3093,7 +3093,7 @@ issues =
 		}		
 	}
 	acceptable_minimum_wage = { 
-		factor = 0.5
+		factor = 0
 		modifier = {
 			factor = 0 
 			OR = {
@@ -3189,7 +3189,7 @@ issues =
 		}		
 	}
 	good_minimum_wage = { 
-		factor = 0.5
+		factor = 0
 		modifier = {
 			factor = 0 
 			OR = {
@@ -3286,7 +3286,7 @@ issues =
 	}
 	
 	trinket_safety = { 
-		factor = 0.5
+		factor = 0
 		modifier = {
 			factor = 0 
 			OR = {
@@ -3354,7 +3354,7 @@ issues =
 		}
 	}
 	low_safety = { 
-		factor = 0.5
+		factor = 0
 		modifier = {
 			factor = 0 
 			OR = {
@@ -3422,7 +3422,7 @@ issues =
 		}
 	}
 	acceptable_safety = { 
-		factor = 0.5
+		factor = 0
 		modifier = {
 			factor = 0 
 			OR = {
@@ -3491,7 +3491,7 @@ issues =
 
 	}
 	good_safety  = { 
-		factor = 0.5
+		factor = 0
 		modifier = {
 			factor = 0 
 			OR = {
@@ -3559,7 +3559,7 @@ issues =
 		}
 	}
 	trinket_subsidies = { 
-		factor = 0.5
+		factor = 0
 		modifier = {
 			factor = 0 
 			OR = {
@@ -3648,7 +3648,7 @@ issues =
 		}
 	}
 	low_subsidies = { 
-		factor = 0.5
+		factor = 0
 		modifier = {
 			factor = 0 
 			OR = {
@@ -3737,7 +3737,7 @@ issues =
 		}
 	}
 	acceptable_subsidies = { 
-		factor = 0.5
+		factor = 0
 		modifier = {
 			factor = 0 
 			OR = {
@@ -3826,7 +3826,7 @@ issues =
 		}
 	}
 	good_subsidies = { 
-		factor = 0.5
+		factor = 0
 		modifier = {
 			factor = 0 
 			OR = {
@@ -3915,7 +3915,7 @@ issues =
 		}
 	}
 	trinket_pensions = { 
-		factor = 0.5
+		factor = 0
 		modifier = {
 			factor = 0 
 			OR = {
@@ -3994,7 +3994,7 @@ issues =
 		}
 	}
 	low_pensions = { 
-		factor = 0.5
+		factor = 0
 		modifier = {
 			factor = 0 
 			OR = {
@@ -4073,7 +4073,7 @@ issues =
 		}
 	}
 	acceptable_pensions = { 
-		factor = 0.5
+		factor = 0
 		modifier = {
 			factor = 0 
 			OR = {
@@ -4152,7 +4152,7 @@ issues =
 		}
 	}
 	good_pensions = { 
-		factor = 0.5
+		factor = 0
 		modifier = {
 			factor = 0 
 			OR = {
@@ -4231,7 +4231,7 @@ issues =
 		}
 	}
 	trinket_health_care = { 
-		factor = 0.5
+		factor = 0
 		modifier = {
 			factor = 0 
 			OR = {
@@ -4302,7 +4302,7 @@ issues =
 		}
 	}
 	low_health_care = { 
-		factor = 0.5
+		factor = 0
 		modifier = {
 			factor = 0 
 			OR = {
@@ -4374,7 +4374,7 @@ issues =
 		}
 	}
 	acceptable_health_care = { 
-		factor = 0.5
+		factor = 0
 		modifier = {
 			factor = 0 
 			OR = {
@@ -4446,7 +4446,7 @@ issues =
 		}
 	}
 	good_health_care = { 
-		factor = 0.5
+		factor = 0
 		modifier = {
 			factor = 0 
 			OR = {
@@ -4518,7 +4518,7 @@ issues =
 		}
 	}
 	fourteen_hours = { 
-		factor = 0.5
+		factor = 0
 		modifier = {
 			factor = 0 
 			OR = {
@@ -4602,7 +4602,7 @@ issues =
 		}
 	}
 	twelve_hours = { 
-		factor = 0.5
+		factor = 0
 		modifier = {
 			factor = 0 
 			OR = {
@@ -4686,7 +4686,7 @@ issues =
 		}
 	}
 	ten_hours = { 
-		factor = 0.5
+		factor = 0
 		modifier = {
 			factor = 0 
 			OR = {
@@ -4772,7 +4772,7 @@ issues =
 
 	}
 	eight_hours = { 
-		factor = 0.5
+		factor = 0
 		modifier = {
 			factor = 0 
 			OR = {
@@ -4857,7 +4857,7 @@ issues =
 	}
 	
 	low_schools = {
-		factor = 1
+		factor = 0
 		modifier = {
 			factor = 0 
 			OR = {
@@ -4912,7 +4912,7 @@ issues =
 		}
 	}
 	acceptable_schools = {
-		factor = 1
+		factor = 0
 		modifier = {
 			factor = 0 
 			OR = {
@@ -4967,7 +4967,7 @@ issues =
 		}
 	}
 	good_schools = {
-		factor = 1
+		factor = 0
 		modifier = {
 			factor = 0 
 			OR = {
