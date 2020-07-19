@@ -507,7 +507,7 @@ emigration_chance =
 #general assimilation mtth, same for all pops
 assimilation_chance = 
 {
-	factor = 1
+	factor = 4
 
 	group = {
 		modifier = {
@@ -525,11 +525,11 @@ assimilation_chance =
 	}
 
 	modifier = {
-    	factor = -20
+    	factor = -2
 		has_culture_core = yes
 	}
 	modifier = {
-		factor = 10
+		factor = 2
 		AND = {
 			is_accepted_culture = no
 			OR = { 
@@ -600,7 +600,7 @@ assimilation_chance =
 #general conversion mtth, same for all pops
 conversion_chance = 
 {
-	factor = 1
+	factor = 2
 
 	group = {
 		modifier = {
