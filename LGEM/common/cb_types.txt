@@ -907,7 +907,7 @@ release_puppet = {
 	}
 	
 	po_release_puppet = yes
-	po_add_to_sphere = yes
+
 
 	war_name = WAR_NAME
 	
@@ -1007,7 +1007,7 @@ become_independent = {
 	}
 	
 	po_release_puppet = yes
-	po_add_to_sphere = yes
+
 
 	war_name = WAR_INDEPENDENCE_NAME
 	
@@ -1274,7 +1274,7 @@ unification_release_puppet_cb = {
 	}
 	
 	po_release_puppet = yes
-	po_add_to_sphere = yes
+
 
 	war_name = WAR_NAME
 	
