@@ -415,15 +415,6 @@ emigration_chance =
 	factor = 1
 
 	group = {
-
-		modifier = {
-			factor = 0.1
-			militancy = 5
-		}
-		modifier = {
-			factor = 0.1
-			militancy = 6
-		}
 		modifier = {
 			factor = 0.1
 			militancy = 7
