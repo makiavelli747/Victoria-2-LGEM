@@ -449,15 +449,15 @@ emigration_chance =
 	group = {
 		modifier = {
 			factor = 0.1
-			unemployment = 0.05
-		}
-		modifier = {
-			factor = 0.1
 			unemployment = 0.1
 		}
 		modifier = {
 			factor = 0.1
-			unemployment = 0.15
+			unemployment = 0.2
+		}
+		modifier = {
+			factor = 0.1
+			unemployment = 0.3
 		}
 		
 	}
