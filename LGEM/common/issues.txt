@@ -373,22 +373,22 @@ social_reforms = {
 		no_minimum_wage = {
 		}
 		trinket_wage = {
-			minimum_wage = 2
+			minimum_wage = 2.5
 			administrative_multiplier = 1
 			global_immigrant_attract = 0.01
 		}
 		low_minimum_wage = {
-			minimum_wage = 4
+			minimum_wage = 5
 			administrative_multiplier = 2
 			global_immigrant_attract = 0.02
 		}
 		acceptable_minimum_wage = {
-			minimum_wage = 6
+			minimum_wage = 7.5
 			administrative_multiplier = 3
 			global_immigrant_attract = 0.03
 		}
 		good_minimum_wage = {
-			minimum_wage = 8
+			minimum_wage = 10
 			administrative_multiplier = 4
 			global_immigrant_attract = 0.04
 		}
@@ -471,19 +471,19 @@ social_reforms = {
 		no_subsidies = {
 		}
 		trinket_subsidies = {
-			unemployment_benefit = 2
+			unemployment_benefit = 2.5
 			global_immigrant_attract = 0.01
 		}
 		low_subsidies = {
-			unemployment_benefit = 4
+			unemployment_benefit = 5
 			global_immigrant_attract = 0.02
 		}
 		acceptable_subsidies = {
-			unemployment_benefit = 6
+			unemployment_benefit = 7.5
 			global_immigrant_attract = 0.03
 		}
 		good_subsidies = {
-			unemployment_benefit = 8
+			unemployment_benefit = 10
 			global_immigrant_attract = 0.04
 		}
 	}
@@ -492,19 +492,19 @@ social_reforms = {
 		no_pensions = {
 		}
 		trinket_pensions = {
-			pension_level	= 2
+			pension_level	= 2.5
 			global_immigrant_attract = 0.01
 		}
 		low_pensions = {
-			pension_level	= 4
+			pension_level	= 5
 			global_immigrant_attract = 0.02
 		}
 		acceptable_pensions = {
-			pension_level	= 6
+			pension_level	= 7.5
 			global_immigrant_attract = 0.03
 		}
 		good_pensions = {
-			pension_level	= 8
+			pension_level	= 10
 			global_immigrant_attract = 0.04
 		}
 	}	
