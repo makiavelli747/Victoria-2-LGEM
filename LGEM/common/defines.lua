@@ -656,7 +656,7 @@ pops = {
 	RULING_PARTY_HAPPY_CHANGE = -1,
 	RULING_PARTY_ANGRY_CHANGE = 2,
 
-	PDEF_BASE_CON = 100.0,			-- so half'ed effect.
+	PDEF_BASE_CON = 20.0,			-- so half'ed effect.
 	
 	NATIONAL_FOCUS_DIVIDER = 400000.0,
 	
@@ -676,7 +676,7 @@ pops = {
 	
 	MIL_HIT_FROM_CONQUEST = 4, -- how much militancy grows in a province if taken without being core.
 	LUXURY_CON_CHANGE = 0.001, -- con boost from over-buying luxuary goods
-	INVENTION_IMPACT_ON_DEMAND = 0.001, -- how much each invention in a country increases demand for a product in percent
+	INVENTION_IMPACT_ON_DEMAND = 0.005, -- how much each invention in a country increases demand for a product in percent
 	ARTISAN_SUPPRESSED_COLONIAL_GOODS_CATEGORY = 0, -- Goods category index not produced in colonies
 	ISSUE_MOVEMENT_JOIN_LIMIT = 8,
 	ISSUE_MOVEMENT_LEAVE_LIMIT = 7,

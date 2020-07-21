@@ -271,11 +271,11 @@ demotion_chance =
 	group = {
 		modifier = {
 			factor = 0.1
-			unemployment = 0.1
+			unemployment = 0.05
 		}
 		modifier = {
 			factor = 0.1
-			unemployment = 0.2
+			unemployment = 0.1
 		}
 		modifier = {
 			factor = 0.5
@@ -317,7 +317,7 @@ migration_chance =
 
 
 	modifier = {
-		factor = -0.1
+		factor = -0.2
 		state_scope = {
 			has_factories = yes
 			}
@@ -386,7 +386,7 @@ colonialmigration_chance =
 
 
 	modifier = {
-		factor = -0.1
+		factor = -0.2
 		state_scope = {
 			has_factories = yes
 			}
@@ -462,7 +462,7 @@ emigration_chance =
 		
 	}
 	modifier = {
-		factor = -0.1
+		factor = -0.2
 		agree_with_ruling_party = 0.3
 	}
 
