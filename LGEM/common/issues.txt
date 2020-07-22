@@ -471,19 +471,19 @@ social_reforms = {
 		no_subsidies = {
 		}
 		trinket_subsidies = {
-			unemployment_benefit = 5
+			unemployment_benefit = 2.5
 			global_immigrant_attract = 0.01
 		}
 		low_subsidies = {
-			unemployment_benefit = 10
+			unemployment_benefit = 5
 			global_immigrant_attract = 0.02
 		}
 		acceptable_subsidies = {
-			unemployment_benefit = 15
+			unemployment_benefit = 7.5
 			global_immigrant_attract = 0.03
 		}
 		good_subsidies = {
-			unemployment_benefit = 20
+			unemployment_benefit = 10
 			global_immigrant_attract = 0.04
 		}
 	}
