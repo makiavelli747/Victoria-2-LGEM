@@ -25,7 +25,9 @@ political_decisions = {
 							owner = {
 								vassal_of = THIS
 							}
-							alliance_with = THIS
+							owner = {
+								alliance_with = THIS
+							}
 						}
 						NOT = {
 							culture = south_german
@@ -40,7 +42,10 @@ political_decisions = {
 			any_country = {
 				limit = {
 					primary_culture = south_german
-					vassal_of = THIS
+					OR = { 
+						vassal_of = THIS
+						alliance_with = THIS
+					}
 					NOT = {
 						tag = THIS
 					}
@@ -88,7 +93,10 @@ political_decisions = {
 							owner = {
 								vassal_of = THIS
 							}
-							alliance_with = THIS
+							owner = {
+								alliance_with = THIS
+							}
+							
 						}
 						NOT = {
 							culture = south_german
@@ -103,7 +111,10 @@ political_decisions = {
 			any_country = {
 				limit = {
 					primary_culture = south_german
-					vassal_of = THIS
+					OR = { 
+						vassal_of = THIS
+						alliance_with = THIS
+					}
 					NOT = {
 						tag = THIS
 					}
@@ -126,7 +137,7 @@ political_decisions = {
 			release_vassal = SGF
 			diplomatic_influence = {
 				who = SGF
-				value = 300
+				value = 50
 			}
 		}
 		ai_will_do = {
@@ -154,6 +165,9 @@ political_decisions = {
 							owner = {
 								vassal_of = THIS
 							}
+							owner = {
+								alliance_with = THIS
+							}
 						}
 						NOT = {
 							culture = north_german
@@ -171,7 +185,10 @@ political_decisions = {
 						primary_culture = north_german
 						tag = SCH 
 					}
-					vassal_of = THIS
+					OR = { 
+						vassal_of = THIS
+						alliance_with = THIS
+					}
 					NOT = {
 						tag = THIS
 					}
@@ -218,7 +235,9 @@ political_decisions = {
 						owner = {
 							vassal_of = THIS
 						}
-						alliance_with = THIS
+							owner = {
+								alliance_with = THIS
+							}
 					}
 				}
 			}
@@ -234,7 +253,10 @@ political_decisions = {
 						tag = KUK
 					}
 					is_culture_group = THIS
-					vassal_of = THIS
+					OR = { 
+						vassal_of = THIS
+						alliance_with = THIS
+					}
 				}
 				country_event = { id=11101 days=0 }
 			}
@@ -269,7 +291,9 @@ political_decisions = {
 						owner = {
 							vassal_of = THIS
 						}
-						alliance_with = THIS
+							owner = {
+								alliance_with = THIS
+							}
 					}
 				}
 			}
@@ -283,7 +307,10 @@ political_decisions = {
 			any_country = {
 				limit = {
 					is_culture_group = germanic
-					vassal_of = THIS
+					OR = { 
+						vassal_of = THIS
+						alliance_with = THIS
+					}
 				}
 				country_event = { id=11101 days=0 }
 			}
@@ -316,7 +343,9 @@ political_decisions = {
 						owner = {
 							vassal_of = THIS
 						}
-						alliance_with = THIS
+							owner = {
+								alliance_with = THIS
+							}
 					}
 				}
 			}
@@ -331,7 +360,11 @@ political_decisions = {
 			any_country = {
 				limit = {
 					is_culture_group = italian
-					vassal_of = THIS
+					OR = { 
+						vassal_of = THIS
+						alliance_with = THIS
+					}
+
 				}
 				country_event = { id=11101 days=0 }
 			}
@@ -366,7 +399,9 @@ political_decisions = {
 						owner = {
 							vassal_of = THIS
 						}
-						alliance_with = THIS
+							owner = {
+								alliance_with = THIS
+							}
 					}
 				}
 			}
@@ -387,7 +422,10 @@ political_decisions = {
 						is_greater_power = yes
 					}
 					is_culture_group = scandinavian
-					vassal_of = THIS
+					OR = { 
+						vassal_of = THIS
+						alliance_with = THIS
+					}
 				}
 				country_event = { id=11101 days=0 }
 			}
@@ -518,7 +556,7 @@ political_decisions = {
 						OR = {
 							tag = THIS
 							vassal_of = THIS
-							alliance_with = THIS
+							
 						}
 					}
 				}
