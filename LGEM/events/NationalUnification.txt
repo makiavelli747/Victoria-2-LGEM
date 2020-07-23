@@ -19,7 +19,7 @@ country_event = {
 				is_culture_group = THIS
 				is_greater_power = no
 				OR = {
-					in_sphere = THIS
+					alliance_with = THIS
 					AND = {
 						part_of_sphere = no
 						NOT = {
@@ -83,7 +83,7 @@ country_event = {
 				factor = 3
 				upper_house = {
 					ideology = liberal
-					value = 0.5
+					value = 0.3
 				}
 			}
 		}
