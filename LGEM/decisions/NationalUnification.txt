@@ -25,6 +25,7 @@ political_decisions = {
 							owner = {
 								vassal_of = THIS
 							}
+							alliance_with = THIS
 						}
 						NOT = {
 							culture = south_german
@@ -87,6 +88,7 @@ political_decisions = {
 							owner = {
 								vassal_of = THIS
 							}
+							alliance_with = THIS
 						}
 						NOT = {
 							culture = south_german
@@ -148,6 +150,7 @@ political_decisions = {
 					OR = {
 						OR = {
 							owned_by = THIS
+							alliance_with = THIS
 							owner = {
 								vassal_of = THIS
 							}
@@ -215,6 +218,7 @@ political_decisions = {
 						owner = {
 							vassal_of = THIS
 						}
+						alliance_with = THIS
 					}
 				}
 			}
@@ -265,6 +269,7 @@ political_decisions = {
 						owner = {
 							vassal_of = THIS
 						}
+						alliance_with = THIS
 					}
 				}
 			}
@@ -311,6 +316,7 @@ political_decisions = {
 						owner = {
 							vassal_of = THIS
 						}
+						alliance_with = THIS
 					}
 				}
 			}
@@ -360,6 +366,7 @@ political_decisions = {
 						owner = {
 							vassal_of = THIS
 						}
+						alliance_with = THIS
 					}
 				}
 			}
@@ -510,8 +517,8 @@ political_decisions = {
 					owner = {
 						OR = {
 							tag = THIS
-							in_sphere = THIS
 							vassal_of = THIS
+							alliance_with = THIS
 						}
 					}
 				}
