@@ -34,12 +34,12 @@ luxury_needs = {
 	opium = 2
 	luxury_clothes = 2
 	luxury_furniture = 2
-	telephones = 2.5
-	automobiles = 2.0
+	telephones = 4
+	automobiles = 3
 	wine = 20
-	aeroplanes = 0.8
-	radio = 2.5
-	fuel = 2
+	aeroplanes = 0.5
+	radio = 4
+	fuel = 4
 	tobacco = 10
 	coffee = 10
 }
