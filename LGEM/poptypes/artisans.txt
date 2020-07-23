@@ -14,11 +14,13 @@ rebel =
 
 luxury_needs = {
 	opium = 10
+	clipper_convoy = 1
+	steamer_convoy = 1
 	luxury_clothes = 1
 	luxury_furniture = 1
 	telephones = 4
 	automobiles = 3
-	wine = 20
+	wine = 10
 	radio = 4
 	fuel = 3
 	tobacco = 10
