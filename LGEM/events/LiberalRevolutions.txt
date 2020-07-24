@@ -1257,7 +1257,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA10210"
 		any_pop = {
-			militancy = 1
+			militancy = 0.5
 		}
 	}
 }
