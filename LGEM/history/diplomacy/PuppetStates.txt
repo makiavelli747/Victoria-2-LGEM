@@ -81,6 +81,14 @@ vassal = {
 	end_date = 1837.1.1
 }
 
+# United Kingdom-Belgium
+vassal = {
+	first = ENG
+	second = BEL
+	start_date = 1814.10.1
+	end_date = 1837.1.1
+}
+
 # Prussia-Mecklenburg
 vassal = {
 	first = PRU
@@ -197,6 +205,22 @@ vassal = {
 vassal = {
 	first = PRU
 	second = MEI
+	start_date = 1814.10.1
+	end_date = 1837.1.1
+}
+
+# Austria-Wurttemberg
+vassal = {
+	first = AUS
+	second = WUR
+	start_date = 1814.10.1
+	end_date = 1837.1.1
+}
+
+# Austria-Bavaria
+vassal = {
+	first = AUS
+	second = BAV
 	start_date = 1814.10.1
 	end_date = 1837.1.1
 }
