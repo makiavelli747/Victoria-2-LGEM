@@ -5,11 +5,11 @@ party_issues = {
 	trade_policy = {
 		protectionism = {
 			max_tariff = 1
-			min_tariff = 0.5
+			min_tariff = 1
 		}
 		free_trade = {
 			max_tariff = 0.5
-			min_tariff = -1
+			min_tariff = 0.5
 		}
 	}
 	economic_policy = {
