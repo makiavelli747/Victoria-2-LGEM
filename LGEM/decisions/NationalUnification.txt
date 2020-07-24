@@ -73,6 +73,7 @@ political_decisions = {
 			}
 			is_greater_power = yes
 			primary_culture = south_german
+			year = 1838
 			NOT = {
 				exists = GER
 				exists = SGF
