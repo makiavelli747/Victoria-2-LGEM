@@ -873,7 +873,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA10150"
 		poor_strata = {
-			militancy = 1
+			militancy = 0.5
 		}
 	}
 	option = {
