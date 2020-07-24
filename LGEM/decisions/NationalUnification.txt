@@ -161,7 +161,7 @@ political_decisions = {
 					OR = {
 						OR = {
 							owned_by = THIS
-							alliance_with = THIS
+							
 							owner = {
 								vassal_of = THIS
 							}
