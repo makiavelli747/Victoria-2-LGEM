@@ -1211,10 +1211,10 @@ province_event = {
 	option = {
 		name = "EVTOPTA10200"
 		any_pop = {
-			consciousness = 1
+			consciousness = -1
 		}
 		random_pop = {
-			reduce_pop = 0.99
+			reduce_pop = 0.98
 		}
 	}
 	option = {

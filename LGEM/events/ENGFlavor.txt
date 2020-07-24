@@ -18,7 +18,7 @@ country_event = {
 			government = prussian_constitutionalism
 			government = hms_government
 		}
-		is_sphere_leader_of = HAN
+		is_our_vassal = HAN
 	}
 	
 	major = yes
