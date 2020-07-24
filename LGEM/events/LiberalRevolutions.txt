@@ -846,7 +846,7 @@ province_event = {
 		is_colonial = no
 	}
 	mean_time_to_happen = {
-		months = 1200
+		months = 120
 		modifier = {
 			factor = 0.9
 			NOT = {
@@ -925,7 +925,6 @@ province_event = {
 		name = "EVTOPTA10160"
 		state_scope = {
 			any_pop = {
-				militancy = 2
 				consciousness = 1
 				ideology = {
 					factor = 0.05
