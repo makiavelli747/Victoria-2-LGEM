@@ -3,12 +3,11 @@ country_event = {
 	title = "EVTNAME11100"
 	desc = "EVTDESC11100"
 	picture = "Celebration"
-
+	
 	id = 11100
 
 	is_triggered_only = yes
 
-	year = 1860
 
 	option = {				# Accept inheritance
 		name = "EVTOPTA11100"
@@ -93,7 +92,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTB11100"
-		prestige = 2
+		prestige = 20
 		ai_chance = {
 			factor = 95
 			modifier = {
