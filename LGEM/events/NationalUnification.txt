@@ -8,6 +8,8 @@ country_event = {
 
 	is_triggered_only = yes
 
+	year = 1860
+
 	option = {				# Accept inheritance
 		name = "EVTOPTA11100"
 		change_tag = culture
