@@ -40,7 +40,7 @@ post_napoleonic_thought = {
 			is_greater_power = yes
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = army_tech_school
 		}
 	}
@@ -74,7 +74,7 @@ strategic_mobility = {
 			war = yes
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = army_tech_school
 		}
 		modifier = {
@@ -145,7 +145,7 @@ point_defense_system = {
 			}
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = army_tech_school
 		}
 		modifier = {
@@ -205,7 +205,7 @@ deep_defense_system = {
 			is_greater_power = yes
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = army_tech_school
 		}
 	}
@@ -251,7 +251,7 @@ infiltration = {
 			is_greater_power = yes
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = army_tech_school
 		}
 	}
@@ -298,7 +298,7 @@ modern_army_doctrine = {
 			is_greater_power = yes
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = army_tech_school
 		}
 	}
@@ -343,7 +343,7 @@ flintlock_rifles = {
 			}
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = army_tech_school
 		}
 	}
@@ -390,7 +390,7 @@ muzzle_loaded_rifles = {
 			}
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = army_tech_school
 		}
 	}
@@ -438,7 +438,7 @@ breech_loaded_rifles = {
 			}
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = army_tech_school
 		}
 	}
@@ -475,7 +475,7 @@ machine_guns = {
 			}
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = army_tech_school
 		}
 		modifier = {
@@ -518,7 +518,7 @@ bolt_action_rifles = {
 			}
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = army_tech_school
 		}
 		modifier = {
@@ -560,7 +560,7 @@ modern_divisional_structure = {
 			}
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = army_tech_school
 		}
 		modifier = {
@@ -603,7 +603,7 @@ bronze_muzzle_loaded_artillery = {
 			war = yes
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = army_tech_school
 		}
 		modifier = {
@@ -634,7 +634,7 @@ iron_muzzle_loaded_artillery = {
 			is_greater_power = yes
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = army_tech_school
 		}
 		modifier = {
@@ -734,7 +734,7 @@ steel_breech_loaded_artillery = {
 			war = yes
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = army_tech_school
 		}
 		modifier = {
@@ -779,7 +779,7 @@ indirect_artillery_fire = {
 			war = yes
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = army_tech_school
 		}
 		modifier = {
@@ -824,7 +824,7 @@ heavy_armament_dunno = {
 			war = yes
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = army_tech_school
 		}
 		modifier = {
@@ -871,7 +871,7 @@ military_staff_system = {
 			war = yes
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = army_tech_school
 		}
 		modifier = {
@@ -902,7 +902,7 @@ military_plans = {
 			is_greater_power = yes
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = army_tech_school
 		}
 		modifier = {
@@ -946,7 +946,7 @@ military_statistics = {
 			is_greater_power = yes
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = army_tech_school
 		}
 		modifier = {
@@ -991,7 +991,7 @@ military_logistics = {
 			is_greater_power = yes
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = army_tech_school
 		}
 		modifier = {
@@ -1038,7 +1038,7 @@ military_directionism = {
 			war = yes
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = army_tech_school
 		}
 		modifier = {
@@ -1082,7 +1082,7 @@ aeronautics = {
 			is_greater_power = yes
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = army_tech_school
 		}
 		modifier = {
@@ -1127,7 +1127,7 @@ army_command_principle = {
 	ai_chance = {
 		factor = 1.5
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = army_tech_school
 		}
 		modifier = {
@@ -1177,7 +1177,7 @@ army_professionalism = {
 			}
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = army_tech_school
 		}
 		modifier = {
@@ -1219,7 +1219,7 @@ army_decision_making = {
 			is_greater_power = yes
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = army_tech_school
 		}
 		modifier = {
@@ -1274,7 +1274,7 @@ army_risk_management = {
 			is_greater_power = yes
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = army_tech_school
 		}
 		modifier = {
@@ -1330,7 +1330,7 @@ army_nco_training = {
 			is_greater_power = yes
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = army_tech_school
 		}
 		modifier = {
@@ -1385,7 +1385,7 @@ great_war_experience = {
 			is_greater_power = yes
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = army_tech_school
 		}
 		modifier = {
