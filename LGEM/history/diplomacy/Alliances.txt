@@ -38,4 +38,11 @@ alliance=
 		start_date="1836.1.1"
 	}
 
+alliance=
+	{
+		first="AUS"
+		second="BAV"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
 
