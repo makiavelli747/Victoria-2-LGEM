@@ -209,29 +209,7 @@ vassal = {
 	end_date = 1837.1.1
 }
 
-# Austria-Wurttemberg
-vassal = {
-	first = AUS
-	second = WUR
-	start_date = 1814.10.1
-	end_date = 1837.1.1
-}
 
-# Austria-Bavaria
-vassal = {
-	first = AUS
-	second = BAV
-	start_date = 1814.10.1
-	end_date = 1837.1.1
-}
-
-# Austria-Baden
-vassal = {
-	first = AUS
-	second = BAD
-	start_date = 1814.10.1
-	end_date = 1837.1.1
-}
 
 # United Kingdom-Ionian Islands
 vassal = {
