@@ -35,6 +35,11 @@ country_event = {
 			who = HAN
 			value = -200
 		}
+		leave_alliance = HAN
+			relation = {
+				who = HAN
+				value = -150
+			}
 		prestige = 5
 	}
 }
