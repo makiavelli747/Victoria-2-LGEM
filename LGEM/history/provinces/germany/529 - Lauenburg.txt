@@ -1,5 +1,5 @@
 owner = DENcontroller = DEN
-add_core = HOL	add_core = PRU	
+add_core = HOL	
 add_core = GER
 trade_goods = grain
 life_rating = 40
