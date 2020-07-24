@@ -873,7 +873,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA10150"
 		poor_strata = {
-			militancy = 6
+			militancy = 3
 		}
 	}
 	option = {
@@ -1212,11 +1212,10 @@ province_event = {
 	option = {
 		name = "EVTOPTA10200"
 		any_pop = {
-			militancy = 2
 			consciousness = 1
 		}
 		random_pop = {
-			reduce_pop = 0.90
+			reduce_pop = 0.99
 		}
 	}
 	option = {
