@@ -1,5 +1,5 @@
-owner = AUS
-controller = AUS
+owner = SAX
+controller = SAX
 add_core = SAX
 add_core = PRU
 add_core = GER
