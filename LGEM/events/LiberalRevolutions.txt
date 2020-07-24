@@ -846,7 +846,7 @@ province_event = {
 		is_colonial = no
 	}
 	mean_time_to_happen = {
-		months = 120
+		months = 200
 		modifier = {
 			factor = 0.9
 			NOT = {
