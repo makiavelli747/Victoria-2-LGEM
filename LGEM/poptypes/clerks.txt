@@ -32,7 +32,7 @@ luxury_needs = {
 }
 
 everyday_needs = {
-	coal = 2
+	coal = 1
 	iron = 1
 	steel = 1
 	liquor = 5
