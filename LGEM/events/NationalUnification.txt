@@ -60,7 +60,7 @@ country_event = {
 		prestige = -100
 		badboy = 10
 		ai_chance = {
-			factor = 1
+			factor = 5
 			modifier = {
 				factor = 200
 				OR = {
@@ -94,14 +94,11 @@ country_event = {
 		name = "EVTOPTB11100"
 		prestige = 100
 		ai_chance = {
-			factor = 99
+			factor = 95
 			modifier = {
 				factor = 1.5
 				government = absolute_monarchy
 			}
-		}
-		any_pop = {
-			militancy = 1
 		}
 	}
 }
