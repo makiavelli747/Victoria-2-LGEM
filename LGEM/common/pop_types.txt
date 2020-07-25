@@ -271,14 +271,14 @@ demotion_chance =
 	group = {
 		modifier = {
 			factor = 0.1
-			unemployment = 0.05
-		}
-		modifier = {
-			factor = 0.1
 			unemployment = 0.1
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.1
+			unemployment = 0.2
+		}
+		modifier = {
+			factor = 0.3
 			unemployment = 0.3
 			location = { controlled_by = owner }
 		}		
@@ -326,26 +326,13 @@ migration_chance =
 	group = {
 		modifier = {
 			factor = 0.1
-			unemployment = 0.05
-		}
-		modifier = {
-			factor = 0.1
 			unemployment = 0.1
-		}
-		modifier = {
-			factor = 0.1
-			unemployment = 0.15
 		}
 		modifier = {
 			factor = 0.1
 			unemployment = 0.2
 			location = { controlled_by = owner }
-		}		
-		modifier = {
-			factor = 0.1
-			unemployment = 0.25
-			location = { controlled_by = owner }
-		}		
+		}				
 		modifier = {
 			factor = 0.1
 			unemployment = 0.3
@@ -395,15 +382,15 @@ colonialmigration_chance =
 	group = {
 		modifier = {
 			factor = 0.1
-			unemployment = 0.05
-		}
-		modifier = {
-			factor = 0.1
 			unemployment = 0.1
 		}
 		modifier = {
 			factor = 0.1
-			unemployment = 0.15
+			unemployment = 0.2
+		}
+		modifier = {
+			factor = 0.1
+			unemployment = 0.3
 		}
 		
 	}
@@ -582,11 +569,11 @@ assimilation_chance =
 	group = {
 		modifier = {
 			factor = 0.1
-			NOT = { unemployment = 0.1 }
+			NOT = { unemployment = 0.2 }
 		}
 		modifier = {
 			factor = 0.1
-			NOT = { unemployment = 0.05 }
+			NOT = { unemployment = 0.1 }
 		}
 	}
 }
