@@ -192,11 +192,11 @@ demotion_chance =
 	group = {
 		modifier = {
 			factor = 0.1
-			not = { everyday_needs = 0.5 }
+			not = { everyday_needs = 0.3 }
 		}
 		modifier = {
 			factor = 0.1
-			not = { everyday_needs = 0.25 }
+			not = { everyday_needs = 0.2 }
 		}
 		modifier = {
 			factor = 0.1
@@ -303,11 +303,11 @@ migration_chance =
 	group = {
 		modifier = {
 			factor = 0.1
-			not = { everyday_needs = 0.5 }
+			not = { everyday_needs = 0.3 }
 		}
 		modifier = {
 			factor = 0.1
-			not = { everyday_needs = 0.25 }
+			not = { everyday_needs = 0.2 }
 		}
 		modifier = {
 			factor = 0.1
@@ -359,11 +359,11 @@ colonialmigration_chance =
 	group = {
 		modifier = {
 			factor = 0.1
-			not = { everyday_needs = 0.5 }
+			not = { everyday_needs = 0.3 }
 		}
 		modifier = {
 			factor = 0.1
-			not = { everyday_needs = 0.25 }
+			not = { everyday_needs = 0.2 }
 		}
 		modifier = {
 			factor = 0.1
@@ -420,11 +420,11 @@ emigration_chance =
 	group = {
 		modifier = {
 			factor = 0.1
-			not = { everyday_needs = 0.5 }
+			not = { everyday_needs = 0.3 }
 		}
 		modifier = {
 			factor = 0.1
-			not = { everyday_needs = 0.25 }
+			not = { everyday_needs = 0.2 }
 		}
 		modifier = {
 			factor = 0.1
