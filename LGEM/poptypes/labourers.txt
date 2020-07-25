@@ -13,19 +13,19 @@ everyday_needs = {
 	tobacco = 2
 	coffee = 1
 	liquor = 5
-	regular_clothes = 5
-	furniture = 2.5
+	regular_clothes = 4
+	furniture = 3
 	steel = 2
 	explosives = 1
 }
 
 life_needs = {
 	cattle = 2
-	wool =  3
+	wool =  2
 	fish =  2
 	fruit =  3
 	grain =  6
-	timber = 4
+	timber = 2
 }
 
 
