@@ -415,7 +415,17 @@ emigration_chance =
 			militancy = 9
 		}
 	}
-
+	group = {
+		modifier = {
+			factor = -0.1
+			not = { militancy = 3 }
+		modifier = {
+			factor = -0.1
+			not = { militancy = 2 }
+		modifier = {
+			factor = -0.1
+			not = { militancy = 1 }
+	}
 
 	group = {
 		modifier = {
@@ -456,7 +466,7 @@ emigration_chance =
 		
 	}
 	modifier = {
-		factor = -0.2
+		factor = -0.1
 		agree_with_ruling_party = 0.3
 	}
 
