@@ -16,9 +16,9 @@ rebel =
 }
 
 everyday_needs = {
-	tea = 10
-	glass = 3
-	steel = 2
+	tea = 20
+	glass = 4
+	steel = 4
 	paper = 10
 	luxury_clothes = 3
 	luxury_furniture = 3
@@ -33,7 +33,7 @@ life_needs = {
 	fish =  2
 	fruit =  3
 	grain =  6
-	timber = 5
+	timber = 4
 }
 
 

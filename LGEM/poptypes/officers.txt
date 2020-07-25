@@ -52,11 +52,11 @@ everyday_needs = {
 	regular_clothes = 5
 	furniture = 4
 	paper = 10
-	glass = 2
+	glass = 4
 	tobacco = 5
 	coffee = 2
-	tea = 10
-	steel = 2
+	tea = 20
+	steel = 4
 }
 
 life_needs = {
@@ -65,7 +65,7 @@ life_needs = {
 	fish =  2
 	fruit =  3
 	grain =  6
-	timber = 5
+	timber = 4
 }
 
 
