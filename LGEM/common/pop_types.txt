@@ -210,16 +210,7 @@ demotion_chance =
 		}
 
 
-	group = {
-		modifier = {
-			factor = 0.1
-			not = { luxury_needs = 0.25 }
-		}
-		modifier = {
-			factor = 0.1
-			not = { luxury_needs = 0.1 }
-		}
-	}
+
 		modifier = {
 			factor = 0.5
 			strata = middle
