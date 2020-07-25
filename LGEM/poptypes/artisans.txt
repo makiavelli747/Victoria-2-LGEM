@@ -14,6 +14,7 @@ rebel =
 
 luxury_needs = {
 	opium = 10
+	steel = 2
 	clipper_convoy = 1
 	steamer_convoy = 1
 	luxury_clothes = 1
