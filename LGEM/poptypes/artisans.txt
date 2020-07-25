@@ -28,12 +28,13 @@ luxury_needs = {
 }
 
 everyday_needs = {
-	steel = 4
+	steel = 3
 	liquor = 6
 	regular_clothes = 6
 	furniture = 5
 	paper = 10
-	glass = 4
+	glass = 3
+	wine = 1
 	tobacco = 5
 	coffee = 2
 	tea = 20
