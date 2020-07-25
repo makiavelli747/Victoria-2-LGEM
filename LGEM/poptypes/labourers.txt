@@ -12,9 +12,9 @@ everyday_needs = {
 	tea = 10
 	tobacco = 2
 	coffee = 1
-	liquor = 4
+	liquor = 5
 	regular_clothes = 5
-	furniture = 2.2
+	furniture = 2.5
 	steel = 2
 	explosives = 1
 }
