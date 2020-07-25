@@ -202,6 +202,37 @@ vassal = {
 	end_date = 1837.1.1
 }
 
+# Austria-Saxony
+vassal = {
+	first = AUS
+	second = SAX
+	start_date = 1814.10.1
+	end_date = 1837.1.1
+}
+
+# Austria-Parma
+vassal = {
+	first = AUS
+	second = PAR
+	start_date = 1814.10.1
+	end_date = 1837.1.1
+}
+
+# Austria-Modena
+vassal = {
+	first = AUS
+	second = MOD
+	start_date = 1814.10.1
+	end_date = 1837.1.1
+}
+
+# Austria-Lucca
+vassal = {
+	first = AUS
+	second = LUC
+	start_date = 1814.10.1
+	end_date = 1837.1.1
+}
 
 # United Kingdom-Ionian Islands
 vassal = {
