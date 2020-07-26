@@ -4,12 +4,12 @@
 party_issues = {
 	trade_policy = {
 		protectionism = {
-			max_tariff = 1
-			min_tariff = 1
-		}
-		free_trade = {
 			max_tariff = 0.5
 			min_tariff = 0.5
+		}
+		free_trade = {
+			max_tariff = 0.25
+			min_tariff = 0.25
 		}
 	}
 	economic_policy = {
@@ -373,22 +373,22 @@ social_reforms = {
 		no_minimum_wage = {
 		}
 		trinket_wage = {
-			minimum_wage = 2.5
+			minimum_wage = 1.25
 			administrative_multiplier = 1
 			global_immigrant_attract = 0.01
 		}
 		low_minimum_wage = {
-			minimum_wage = 5
+			minimum_wage = 2.5
 			administrative_multiplier = 2
 			global_immigrant_attract = 0.02
 		}
 		acceptable_minimum_wage = {
-			minimum_wage = 7.5
+			minimum_wage = 3.75
 			administrative_multiplier = 3
 			global_immigrant_attract = 0.03
 		}
 		good_minimum_wage = {
-			minimum_wage = 10
+			minimum_wage = 5
 			administrative_multiplier = 4
 			global_immigrant_attract = 0.04
 		}
@@ -471,19 +471,19 @@ social_reforms = {
 		no_subsidies = {
 		}
 		trinket_subsidies = {
-			unemployment_benefit = 2
+			unemployment_benefit = 1
 			global_immigrant_attract = 0.01
 		}
 		low_subsidies = {
-			unemployment_benefit = 4
+			unemployment_benefit = 2
 			global_immigrant_attract = 0.02
 		}
 		acceptable_subsidies = {
-			unemployment_benefit = 6
+			unemployment_benefit = 3
 			global_immigrant_attract = 0.03
 		}
 		good_subsidies = {
-			unemployment_benefit = 8
+			unemployment_benefit = 4
 			global_immigrant_attract = 0.04
 		}
 	}
@@ -492,19 +492,19 @@ social_reforms = {
 		no_pensions = {
 		}
 		trinket_pensions = {
-			pension_level	= 2.5
+			pension_level	= 1.25
 			global_immigrant_attract = 0.01
 		}
 		low_pensions = {
-			pension_level	= 5
+			pension_level	= 2.5
 			global_immigrant_attract = 0.02
 		}
 		acceptable_pensions = {
-			pension_level	= 7.5
+			pension_level	= 3.75
 			global_immigrant_attract = 0.03
 		}
 		good_pensions = {
-			pension_level	= 10
+			pension_level	= 5
 			global_immigrant_attract = 0.04
 		}
 	}	
