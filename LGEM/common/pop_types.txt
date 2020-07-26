@@ -52,11 +52,7 @@ promotion_chance =
 	group = {
 		modifier = {
 			factor = -0.05
-			militancy = 9
-		}
-		modifier = {
-			factor = -0.05
-			militancy = 8
+			militancy = 6
 		}
 		modifier = {
 			factor = -0.05
@@ -64,7 +60,11 @@ promotion_chance =
 		}
 		modifier = {
 			factor = -0.05
-			militancy = 6
+			militancy = 8
+		}
+		modifier = {
+			factor = -0.05
+			militancy = 9
 		}
 	}
 
@@ -350,7 +350,7 @@ migration_chance =
 
 
 	modifier = {
-		factor = -0.1
+		factor = -0.2
 		state_scope = {
 			has_factories = yes
 			}
@@ -428,7 +428,7 @@ colonialmigration_chance =
 
 
 	modifier = {
-		factor = -0.1
+		factor = -0.2
 		state_scope = {
 			has_factories = yes
 			}
