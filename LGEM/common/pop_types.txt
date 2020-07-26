@@ -301,6 +301,29 @@ migration_chance =
 
 	group = {
 		modifier = {
+			factor = -0.1
+			not = { consciousness = 3 }
+		}
+		modifier = {
+			factor = -0.1
+			not = { consciousness = 2 }
+		}
+		modifier = {
+			factor = -0.1
+			not = { consciousness = 1 }
+		}
+	}
+
+	group = {
+		modifier = {
+			factor = 0.1
+			not = { everyday_needs = 0.5 }
+		}
+		modifier = {
+			factor = 0.1
+			not = { everyday_needs = 0.4 }
+		}
+		modifier = {
 			factor = 0.1
 			not = { everyday_needs = 0.3 }
 		}
@@ -356,6 +379,28 @@ colonialmigration_chance =
 		state_scope = { is_colonial = yes }
 	}
 	group = {
+		modifier = {
+			factor = -0.1
+			not = { consciousness = 3 }
+		}
+		modifier = {
+			factor = -0.1
+			not = { consciousness = 2 }
+		}
+		modifier = {
+			factor = -0.1
+			not = { consciousness = 1 }
+		}
+	}
+	group = {
+		modifier = {
+			factor = 0.1
+			not = { everyday_needs = 0.5 }
+		}
+		modifier = {
+			factor = 0.1
+			not = { everyday_needs = 0.4 }
+		}
 		modifier = {
 			factor = 0.1
 			not = { everyday_needs = 0.3 }
@@ -430,6 +475,14 @@ emigration_chance =
 	}
 
 	group = {
+		modifier = {
+			factor = 0.1
+			not = { everyday_needs = 0.5 }
+		}
+		modifier = {
+			factor = 0.1
+			not = { everyday_needs = 0.4 }
+		}
 		modifier = {
 			factor = 0.1
 			not = { everyday_needs = 0.3 }
