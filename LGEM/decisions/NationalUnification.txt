@@ -73,7 +73,7 @@ political_decisions = {
 			}
 			is_greater_power = yes
 			primary_culture = south_german
-			year = 1838
+			year = 1840
 			NOT = {
 				exists = GER
 				exists = SGF
@@ -87,9 +87,9 @@ political_decisions = {
 						OR = {
 							province_id = 370 # Ignore Schleswig
 							province_id = 371 # Ignore Schleswig
-							province_id = 410 # Need not have Elsaﬂ-Lothringen
-							province_id = 409 # Need not have Elsaﬂ-Lothringen
-							province_id = 412 # Need not have Elsaﬂ-Lothringen
+							province_id = 410 # Need not have Elsa√ü-Lothringen
+							province_id = 409 # Need not have Elsa√ü-Lothringen
+							province_id = 412 # Need not have Elsa√ü-Lothringen
 							owned_by = THIS
 							owner = {
 								vassal_of = THIS
@@ -502,9 +502,9 @@ political_decisions = {
 				change_province_name = "Kolmar"
 			}
 			409 = {
-				change_province_name = "Straﬂburg"
+				change_province_name = "Stra√üburg"
 				state_scope = {
-					change_region_name = "Elsaﬂ-Lothringen"
+					change_region_name = "Elsa√ü-Lothringen"
 				}
 			}
 			prestige = 5
