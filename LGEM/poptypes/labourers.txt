@@ -1050,7 +1050,7 @@ ideologies = {
 	}
 
 	conservative = {
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 1.2
 			NOT = { consciousness = 5 }
@@ -1150,7 +1150,7 @@ ideologies = {
 	}
 
 	communist = {
-		factor = 2
+		factor = 1
 		modifier = {
 			factor = 3
 			ruling_party_ideology = communist 

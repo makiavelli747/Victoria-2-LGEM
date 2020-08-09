@@ -1013,7 +1013,7 @@ ideologies = {
 		}
 	}
 	liberal = {
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 2
 			nationalvalue = nv_liberty
