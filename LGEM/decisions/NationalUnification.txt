@@ -87,9 +87,9 @@ political_decisions = {
 						OR = {
 							province_id = 370 # Ignore Schleswig
 							province_id = 371 # Ignore Schleswig
-							province_id = 410 # Need not have Elsa√ü-Lothringen
-							province_id = 409 # Need not have Elsa√ü-Lothringen
-							province_id = 412 # Need not have Elsa√ü-Lothringen
+							province_id = 410 # Need not have Elsaﬂ-Lothringen
+							province_id = 409 # Need not have Elsaﬂ-Lothringen
+							province_id = 412 # Need not have Elsaﬂ-Lothringen
 							owned_by = THIS
 							owner = {
 								vassal_of = THIS
@@ -157,10 +157,14 @@ political_decisions = {
 		}	
 		allow = {
 			war = no
+			OR = {
+						AND = {
+							year = 1865
+							tag = PRU
+						}
 			GER = {
 				all_core = {
 					OR = {
-						year = 1865
 						OR = {
 							owned_by = THIS
 							
@@ -177,6 +181,7 @@ political_decisions = {
 					}
 				}
 			}
+			}
 		}
 		
 		effect = {
@@ -187,10 +192,7 @@ political_decisions = {
 						primary_culture = north_german
 						tag = SCH 
 					}
-					OR = { 
-						vassal_of = THIS
-						alliance_with = THIS
-					}
+
 					NOT = {
 						tag = THIS
 					}
@@ -284,12 +286,17 @@ political_decisions = {
 		
 		allow = {
 			is_greater_power = yes
-			prestige = 45
+			prestige = 100
 			war = no
+			OR = {
+						AND = {
+							year = 1870
+							tag = NGF
+						}
 			GER = {
 				all_core = {
 					OR = {
-						year = 1870
+
 						owned_by = THIS
 						owner = {
 							vassal_of = THIS
@@ -299,6 +306,7 @@ political_decisions = {
 							}
 					}
 				}
+			}
 			}
 		}
 		
@@ -310,10 +318,8 @@ political_decisions = {
 			any_country = {
 				limit = {
 					is_culture_group = germanic
-					OR = { 
-						vassal_of = THIS
-						alliance_with = THIS
-					}
+					is_greater_power = no
+
 				}
 				country_event = { id=11101 days=0 }
 			}
@@ -337,7 +343,7 @@ political_decisions = {
 		
 		allow = {
 			is_greater_power = yes
-			prestige = 45
+			prestige = 100
 			war = no
 			ITA = {
 				all_core = {
@@ -502,9 +508,9 @@ political_decisions = {
 				change_province_name = "Kolmar"
 			}
 			409 = {
-				change_province_name = "Stra√üburg"
+				change_province_name = "Straﬂburg"
 				state_scope = {
-					change_region_name = "Elsa√ü-Lothringen"
+					change_region_name = "Elsaﬂ-Lothringen"
 				}
 			}
 			prestige = 5
