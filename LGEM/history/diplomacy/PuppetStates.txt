@@ -202,33 +202,26 @@ vassal = {
 	end_date = 1837.1.1
 }
 
-# Austria-Saxony
-vassal = {
-	first = AUS
-	second = SAX
-	start_date = 1814.10.1
-	end_date = 1837.1.1
-}
 
-# Austria-Parma
+# SAR-Parma
 vassal = {
-	first = AUS
+	first = SAR
 	second = PAR
 	start_date = 1814.10.1
 	end_date = 1837.1.1
 }
 
-# Austria-Modena
+# SAR-Modena
 vassal = {
-	first = AUS
+	first = SAR
 	second = MOD
 	start_date = 1814.10.1
 	end_date = 1837.1.1
 }
 
-# Austria-Lucca
+# SAR-Lucca
 vassal = {
-	first = AUS
+	first = SAR
 	second = LUC
 	start_date = 1814.10.1
 	end_date = 1837.1.1
