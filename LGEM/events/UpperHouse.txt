@@ -6,10 +6,7 @@ country_event = {
 	
 	trigger = {
 		is_ideology_enabled = socialist
-		upper_house = {
-			ideology = liberal
-			value = 0.5
-		}
+		ruling_party_ideology = socialist
 		social_reform_want = 0.25
 	}
 	
@@ -43,10 +40,7 @@ country_event = {
 	picture = "Upperhouse"
 	
 	trigger = {
-		upper_house = {
-			ideology = socialist
-			value = 0.5
-		}
+		ruling_party_ideology = liberal
 		political_reform_want = 0.25
 	}
 	
@@ -127,12 +121,10 @@ country_event = {
 	
 	trigger = {
 		yes_meeting = 10
+		ruling_party_ideology = liberal
 		NOT = {
 			public_meetings = yes_meeting
-			upper_house = {
-				ideology = liberal
-				value = 0.1
-			}
+			
 		}
 	}
 	
@@ -166,12 +158,8 @@ country_event = {
 	trigger = {
 		is_ideology_enabled = socialist
 		political_reform_want = 0.1
-		average_militancy = 4
+		ruling_party_ideology = socialist
 		NOT = {
-			upper_house = {
-				ideology = socialist
-				value = 0.1
-			}
 			trade_unions = all_trade_unions
 		}
 	}
@@ -217,12 +205,9 @@ country_event = {
 	
 	trigger = {
 		political_reform_want = 0.1
+		ruling_party_ideology = liberal
 		NOT = {
 			press_rights = free_press
-			upper_house = {
-				ideology = liberal
-				value = 0.5
-			}
 		}
 	}
 	
@@ -254,12 +239,7 @@ country_event = {
 	picture = "Upperhouse"
 	
 	trigger = {
-		NOT = {
-			upper_house = {
-				ideology = reactionary
-				value = 0.3
-			}
-		}
+
 		ruling_party_ideology = reactionary
 		
 	}
@@ -296,10 +276,7 @@ country_event = {
 			upper_house_composition = party_appointed
 		}
 		ruling_party_ideology = reactionary
-		upper_house = {
-			ideology = reactionary
-			value = 0.3
-		}
+
 	}
 	
 	mean_time_to_happen = {
@@ -334,10 +311,7 @@ country_event = {
 		NOT = {
 			wage_reform = good_minimum_wage
 		}
-		upper_house = {
-			ideology = socialist
-			value = 0.2
-		}
+		ruling_party_ideology = socialist
 	}
 	
 	mean_time_to_happen = {
@@ -368,11 +342,8 @@ country_event = {
 	
 	trigger = {
 		political_reform_want = 0.15
-		average_militancy = 4
-		upper_house = {
-			ideology = liberal
-			value = 0.3
-		}
+		ruling_party_ideology = liberal
+
 	}
 	
 	mean_time_to_happen = {
@@ -405,10 +376,7 @@ country_event = {
 		is_greater_power = yes
 		social_reform_want = 0.15
 		health_care = no_health_care
-		upper_house = {
-			ideology = liberal
-			value = 0.3
-		}
+		ruling_party_ideology = socialist
 	}
 	
 	mean_time_to_happen = {
@@ -450,10 +418,7 @@ country_event = {
 		unemployment_subsidies = no_subsidies
 		social_reform_want = 0.1
 		average_militancy = 4
-		upper_house = {
-			ideology = conservative
-			value = 0.3
-		}
+		ruling_party_ideology = socialist
 	}
 	
 	mean_time_to_happen = {
@@ -488,14 +453,7 @@ country_event = {
 	picture = "Upperhouse"
 	
 	trigger = {
-		average_militancy = 5
-		upper_house = {
-			ideology = conservative
-			value = 0.4
-		}
-		NOT = {
-			ruling_party_ideology = conservative
-		}
+		ruling_party_ideology = conservative
 	}
 	
 	mean_time_to_happen = {
@@ -527,14 +485,9 @@ country_event = {
 	picture = "Upperhouse"
 	
 	trigger = {
-		average_militancy = 2
+		
 		ruling_party_ideology = socialist
-		NOT = {
-			upper_house = {
-				ideology = socialist
-				value = 0.5
-			}
-		}
+
 	}
 	
 	mean_time_to_happen = {
@@ -568,17 +521,7 @@ country_event = {
 	picture = "Upperhouse"
 	
 	trigger = {
-		upper_house = {	
-			ideology = fascist
-			value = 0.1
-		}
-		NOT = {
-			upper_house = {
-				ideology = fascist
-				value = 0.5
-			}
-		}
-		average_militancy = 4
+		ruling_party_ideology = fascist
 	}
 	
 	mean_time_to_happen = {
@@ -610,18 +553,8 @@ country_event = {
 	
 	trigger = {
 		vote_franschise = none_voting
-		average_militancy = 5
-		NOT = {
-			ruling_party_ideology = liberal
-			upper_house = {
-				ideology = liberal
-				value = 0.2
-			}
-		}
-		upper_house = {
-			ideology = liberal
-			value = 0.01
-		}
+		ruling_party_ideology = liberal
+
 	}
 	
 	mean_time_to_happen = {
@@ -691,14 +624,8 @@ country_event = {
 	picture = "Upperhouse"
 	
 	trigger = {
-		average_militancy = 3
-		upper_house = {
-			ideology = socialist
-			value = 0.2
-		}
-		not = {
-			ruling_party_ideology = socialist
-		}
+		ruling_party_ideology = socialist
+		
 	}
 	
 	mean_time_to_happen = {
