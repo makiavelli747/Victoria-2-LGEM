@@ -1155,23 +1155,23 @@ ideologies = {
 		}
 		modifier = {
 			factor = 1.2
-			consciousness = 5 
+			NOT = {	consciousness = 9 }
 		}
 		modifier = {
 			factor = 1.2
-			consciousness = 6
+			NOT = { consciousness = 8 }
 		}
 		modifier = {
 			factor = 1.2
-			consciousness = 7
+			NOT = { consciousness = 7 }
 		}
 		modifier = {
 			factor = 1.2
-			consciousness = 8
+			NOT = { consciousness = 6 }
 		}
 		modifier = {
 			factor = 1.2
-			consciousness = 9
+			NOT = { consciousness = 5 }
 		}
 	}
 	liberal = {
