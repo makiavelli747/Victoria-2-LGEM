@@ -485,8 +485,8 @@ country_event = {
 	picture = "Upperhouse"
 	
 	trigger = {
-		
-		ruling_party_ideology = socialist
+		 
+		ruling_party_ideology = communist 
 
 	}
 	
@@ -497,18 +497,16 @@ country_event = {
 	option = {
 		name = "EVTOPTA18130"
 		upper_house = {
-			ideology = socialist
+			ideology = communist 
 			value = 0.5
 		}
-		any_pop = {
-			militancy = 3
-		}
+
 	}
 	
 	option = {
 		name = "EVTOPTB18130"
 		scaled_militancy = {
-			ideology = socialist
+			ideology = communist 
 			factor = 4
 		}
 	}
@@ -737,10 +735,7 @@ country_event = {
 	picture = "Upperhouse"
 	
 	trigger = {
-		upper_house = {
-			ideology = anarcho_liberal
-			value = 0.05
-		}
+		ruling_party_ideology = anarcho_liberal
 	}
 	
 	mean_time_to_happen = {
@@ -749,11 +744,9 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA18200"
-		any_pop = {
-			dominant_issue = {
-				value = laissez_faire
-				factor = 0.1
-			}
+		upper_house = {
+			ideology = anarcho_liberal
+			value = 0.5
 		}
 	}
 	
