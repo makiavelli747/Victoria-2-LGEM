@@ -20,14 +20,21 @@ country_event = {
 			ideology = socialist
 			value = 0.5
 		}
+		any_pop = {
+			ideology = {
+				value = socialist
+				factor = 0.1
+			}
+		}
+
 	}
 	
 	option = {
 		name = "EVTOPTB18000"
 		any_pop = {
-			scaled_militancy = {
-				ideology = liberal
-				factor = 3
+			ideology = {
+				value = liberal
+				factor = 0.1
 			}
 		}
 	}
@@ -54,9 +61,11 @@ country_event = {
 			ideology = liberal
 			value = 0.5
 		}
-		upper_house = {
-			ideology = conservative
-			value = 0.2
+		any_pop = {
+			ideology = {
+				value = liberal
+				factor = 0.1
+			}
 		}
 	}
 	
@@ -66,9 +75,11 @@ country_event = {
 			ideology = conservative
 			value = 0.5
 		}
-		upper_house = {
-			ideology = liberal
-			value = 0.2
+		any_pop = {
+			ideology = {
+				value = conservative
+				factor = 0.1
+			}
 		}
 	}
 }
@@ -174,6 +185,12 @@ country_event = {
 			ideology = socialist
 			value = 0.5
 		}
+		any_pop = {
+			ideology = {
+				value = socialist
+				factor = 0.1
+			}
+		}
 	}
 	
 	option = {
@@ -221,6 +238,12 @@ country_event = {
 			ideology = liberal
 			value = 0.5
 		}
+		any_pop = {
+			ideology = {
+				value = liberal
+				factor = 0.1
+			}
+		}
 	}
 	
 	option = {
@@ -253,6 +276,12 @@ country_event = {
 		upper_house = {
 			ideology = reactionary
 			value = 0.5
+		}
+		any_pop = {
+			ideology = {
+				value = reactionary
+				factor = 0.2
+			}
 		}
 	}
 	
@@ -287,7 +316,7 @@ country_event = {
 		name = "EVTOPTA18070"
 		political_reform = party_appointed
 		any_pop = {
-			militancy = 3
+			militancy = 2
 		}
 	}
 	
@@ -324,6 +353,12 @@ country_event = {
 			ideology = socialist
 			value = 0.5
 		}
+		any_pop = {
+			ideology = {
+				value = socialist
+				factor = 0.1
+			}
+		}
 	}
 	
 	option = {
@@ -355,6 +390,12 @@ country_event = {
 		upper_house = {
 			ideology = liberal
 			value = 0.45
+		}
+		any_pop = {
+			ideology = {
+				value = liberal
+				factor = 0.1
+			}
 		}
 	}
 	
@@ -466,6 +507,12 @@ country_event = {
 			ideology = conservative
 			value = 0.5
 		}
+		any_pop = {
+			ideology = {
+				value = conservative
+				factor = 0.1
+			}
+		}
 	}
 	
 	option = {
@@ -500,6 +547,12 @@ country_event = {
 			ideology = communist 
 			value = 0.5
 		}
+		any_pop = {
+			ideology = {
+				value = communist
+				factor = 0.2
+			}
+		}
 
 	}
 	
@@ -531,6 +584,12 @@ country_event = {
 		upper_house = {
 			ideology = fascist
 			value = 0.5
+		}
+		any_pop = {
+			ideology = {
+				value = fascist
+				factor = 0.2
+			}
 		}
 	}
 	
@@ -638,6 +697,12 @@ country_event = {
 		upper_house = {
 			ideology = socialist
 			value = 0.5
+		}
+		any_pop = {
+			ideology = {
+				value = socialist
+				factor = 0.1
+			}
 		}
 	}
 	
@@ -747,6 +812,12 @@ country_event = {
 		upper_house = {
 			ideology = anarcho_liberal
 			value = 0.5
+		}
+		any_pop = {
+			ideology = {
+				value = anarcho_liberal
+				factor = 0.2
+			}
 		}
 	}
 	
