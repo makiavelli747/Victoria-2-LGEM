@@ -384,6 +384,10 @@ ideologies = {
 				factor = 3
 				ruling_party_ideology = fascist
 			}
+		modifier = {
+			factor = 2
+			nationalvalue = nv_order
+		}
 	}
 	
 	reactionary = {
@@ -423,6 +427,10 @@ ideologies = {
 		modifier = {
 			factor = 1.2
 			NOT = { consciousness = 1 }
+		}
+		modifier = {
+			factor = 2
+			nationalvalue = nv_order
 		}
 		
 	}
@@ -512,6 +520,11 @@ ideologies = {
 	communist = {
 		factor = 1
 		modifier = {
+			factor = 2
+			nationalvalue = nv_equality
+			
+		}
+		modifier = {
 			factor = 3
 			ruling_party_ideology = communist 
 		}
@@ -589,6 +602,10 @@ ideologies = {
 	anarcho_liberal = {
 		factor = 1
 		modifier = {
+			factor = 2
+			nationalvalue = nv_liberty
+		}
+		modifier = {
 			factor = 3
 			ruling_party_ideology = anarcho_liberal
 		}
@@ -625,7 +642,6 @@ ideologies = {
 		}
 	}
 }
-
 
 
 issues =
