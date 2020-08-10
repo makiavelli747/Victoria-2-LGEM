@@ -1151,26 +1151,7 @@ ideologies = {
 			NOT = { everyday_needs = 0.25 }
 			ruling_party_ideology = socialist 
 		}
-		modifier = {
-			factor = 1.2
-			NOT = {	consciousness = 5 }
-		}
-		modifier = {
-			factor = 1.2
-			NOT = { consciousness = 4 }
-		}
-		modifier = {
-			factor = 1.2
-			NOT = { consciousness = 3 }
-		}
-		modifier = {
-			factor = 1.2
-			NOT = { consciousness = 2 }
-		}
-		modifier = {
-			factor = 1.2
-			NOT = { consciousness = 1 }
-		}
+
 	}
 	liberal = {
 		factor = 1
@@ -1223,35 +1204,16 @@ ideologies = {
 			ruling_party_ideology = anarcho_liberal
 		}
 		modifier = {
-			factor = 1.5
+			factor = 2
 			NOT = { everyday_needs = 0.5 }
 			ruling_party_ideology = liberal 
 		}
 		modifier = {
-			factor = 1.5
+			factor = 2
 			NOT = { everyday_needs = 0.25 }
 			ruling_party_ideology = liberal
 		}
-		modifier = {
-			factor = 1.2
-			NOT = {	consciousness = 5 }
-		}
-		modifier = {
-			factor = 1.2
-			NOT = { consciousness = 4 }
-		}
-		modifier = {
-			factor = 1.2
-			NOT = { consciousness = 3 }
-		}
-		modifier = {
-			factor = 1.2
-			NOT = { consciousness = 2 }
-		}
-		modifier = {
-			factor = 1.2
-			NOT = { consciousness = 1 }
-		}
+
 	}
 }
 
