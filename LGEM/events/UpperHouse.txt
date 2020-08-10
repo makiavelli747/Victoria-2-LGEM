@@ -23,7 +23,7 @@ country_event = {
 		any_pop = {
 			ideology = {
 				value = socialist
-				factor = 0.1
+				factor = 0.05
 			}
 		}
 
@@ -34,7 +34,7 @@ country_event = {
 		any_pop = {
 			ideology = {
 				value = liberal
-				factor = 0.1
+				factor = 0.05
 			}
 		}
 	}
@@ -64,7 +64,7 @@ country_event = {
 		any_pop = {
 			ideology = {
 				value = liberal
-				factor = 0.1
+				factor = 0.05
 			}
 		}
 	}
@@ -78,7 +78,7 @@ country_event = {
 		any_pop = {
 			ideology = {
 				value = conservative
-				factor = 0.1
+				factor = 0.05
 			}
 		}
 	}
@@ -107,6 +107,7 @@ country_event = {
 			ideology = liberal
 			value = 0.1
 		}
+
 	}
 	
 	option = {
@@ -149,6 +150,12 @@ country_event = {
 			ideology = liberal
 			value = 0.5
 		}
+		any_pop = {
+			ideology = {
+				value = liberal
+				factor = 0.05
+			}
+		}
 	}
 	
 	option = {
@@ -188,7 +195,7 @@ country_event = {
 		any_pop = {
 			ideology = {
 				value = socialist
-				factor = 0.1
+				factor = 0.05
 			}
 		}
 	}
@@ -241,7 +248,7 @@ country_event = {
 		any_pop = {
 			ideology = {
 				value = liberal
-				factor = 0.1
+				factor = 0.05
 			}
 		}
 	}
@@ -280,7 +287,7 @@ country_event = {
 		any_pop = {
 			ideology = {
 				value = reactionary
-				factor = 0.2
+				factor = 0.05
 			}
 		}
 	}
@@ -356,7 +363,7 @@ country_event = {
 		any_pop = {
 			ideology = {
 				value = socialist
-				factor = 0.1
+				factor = 0.05
 			}
 		}
 	}
@@ -394,7 +401,7 @@ country_event = {
 		any_pop = {
 			ideology = {
 				value = liberal
-				factor = 0.1
+				factor = 0.05
 			}
 		}
 	}
@@ -510,7 +517,7 @@ country_event = {
 		any_pop = {
 			ideology = {
 				value = conservative
-				factor = 0.1
+				factor = 0.05
 			}
 		}
 	}
@@ -550,7 +557,7 @@ country_event = {
 		any_pop = {
 			ideology = {
 				value = communist
-				factor = 0.2
+				factor = 0.05
 			}
 		}
 
@@ -588,7 +595,7 @@ country_event = {
 		any_pop = {
 			ideology = {
 				value = fascist
-				factor = 0.2
+				factor = 0.05
 			}
 		}
 	}
@@ -701,7 +708,7 @@ country_event = {
 		any_pop = {
 			ideology = {
 				value = socialist
-				factor = 0.1
+				factor = 0.05
 			}
 		}
 	}
@@ -816,7 +823,7 @@ country_event = {
 		any_pop = {
 			ideology = {
 				value = anarcho_liberal
-				factor = 0.2
+				factor = 0.05
 			}
 		}
 	}
