@@ -319,7 +319,14 @@ political_decisions = {
 				limit = {
 					is_culture_group = germanic
 					is_greater_power = no
-
+					OR = {
+						owner = {
+							vassal_of = THIS
+						}
+						owner = {
+							alliance_with = THIS
+						}
+					}
 				}
 				country_event = { id=11101 days=0 }
 			}
