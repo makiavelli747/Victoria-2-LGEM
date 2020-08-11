@@ -6,7 +6,7 @@ country_event = {
 	
 	trigger = {
 		nationalvalue = nv_order
-		average_militancy = 7
+		average_militancy = 4
 	}
 	
 	mean_time_to_happen = {
@@ -161,7 +161,7 @@ country_event = {
 	picture = "Demonstration"
 	
 	trigger = {
-		average_militancy = 8
+		average_militancy = 4
 		nationalvalue = nv_liberty
 	}
 	
@@ -172,14 +172,14 @@ country_event = {
 	option = {
 		name = "EVTOPTA18550"
 		any_pop = {
-			militancy = 1
+			militancy = -1
 		}
 	}
 	
 	option = {
 		name = "EVTOPTB18550"
 		any_pop = {
-			militancy = 2
+			militancy = 1
 		}
 		prestige = 10
 	}
