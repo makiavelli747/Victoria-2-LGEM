@@ -719,9 +719,9 @@ country_event = {
 	picture = "Unite"
 	
 	trigger = {
-		is_ideology_enabled = socialist
+		is_ideology_enabled = communist
+		socialist = 25
 		civilized = yes
-		year = 1886
 		OR = {
 			government = prussian_constitutionalism
 			government = democracy
@@ -736,34 +736,14 @@ country_event = {
 		NOT = {
 			ruling_party_ideology = socialist
 		}
+		NOT = {
+			ruling_party_ideology = communist
+		}
 	}
 	
 	mean_time_to_happen = {
 		months = 50
-		modifier = {
-			factor = 0.9
-			NOT = {
-				poor_strata_everyday_needs = 0.5
-			}
-		}
-		modifier = {
-			factor  = 0.9
-			NOT = {
-				poor_strata_everyday_needs = 0.25
-			}
-		}	
-		modifier = {
-			factor = 0.9
-			socialist = 5
-		}
-		modifier = {
-			factor = 0.9
-			socialist = 10
-		}
-		modifier = {
-			factor = 0.9
-			socialist = 15
-		}
+
 		modifier = {
 			factor = 0.9
 			social_reform_want = 0.05
@@ -806,24 +786,20 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA17560"
-		random_state = {
-			any_pop = {
-				scaled_militancy = {
-					ideology = socialist
-					factor = 3
-				}
+		any_pop = {
+			ideology = {
+				value = communist
+				factor = 0.05
 			}
 		}
 	}
 	
 	option = {
 		name = "EVTOPTB17560"
-		random_state = {
-			any_pop = {
-				scaled_consciousness = {
-					ideology = socialist
-					factor = 3
-				}
+		any_pop = {
+			scaled_militancy = {
+				ideology = communist
+				factor = 4
 			}
 		}
 	}
@@ -1192,7 +1168,7 @@ country_event = {
 	
 	trigger = {
 		is_ideology_enabled = fascist
-		socialist = 5
+		socialist = 10
 		NOT = {
 			fascist = 5
 		}
