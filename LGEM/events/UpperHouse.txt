@@ -5,24 +5,24 @@ country_event = {
 	picture = "Upperhouse"
 	
 	trigger = {
-		is_ideology_enabled = communist
-		ruling_party_ideology = socialist
+		
+		ruling_party_ideology = communist
 		
 	}
 	
 	mean_time_to_happen = {
-		months = 100
+		months = 50
 	}
 	
 	option = {
 		name = "EVTOPTA18000"
 		upper_house = {
-			ideology = socialist
+			ideology = communist
 			value = 0.5
 		}
 		any_pop = {
 			ideology = {
-				value = socialist
+				value = communist
 				factor = 0.05
 			}
 		}
@@ -32,9 +32,9 @@ country_event = {
 	option = {
 		name = "EVTOPTB18000"
 		any_pop = {
-			ideology = {
-				value = communist
-				factor = 0.05
+			scaled_militancy = {
+				ideology = communist
+				factor = 3
 			}
 		}
 	}
@@ -61,12 +61,7 @@ country_event = {
 			ideology = liberal
 			value = 0.5
 		}
-		any_pop = {
-			ideology = {
-				value = liberal
-				factor = 0.05
-			}
-		}
+
 	}
 	
 	option = {
@@ -75,12 +70,7 @@ country_event = {
 			ideology = conservative
 			value = 0.5
 		}
-		any_pop = {
-			ideology = {
-				value = conservative
-				factor = 0.05
-			}
-		}
+
 	}
 }
 
@@ -150,12 +140,7 @@ country_event = {
 			ideology = liberal
 			value = 0.5
 		}
-		any_pop = {
-			ideology = {
-				value = liberal
-				factor = 0.05
-			}
-		}
+
 	}
 	
 	option = {
@@ -192,12 +177,7 @@ country_event = {
 			ideology = socialist
 			value = 0.5
 		}
-		any_pop = {
-			ideology = {
-				value = socialist
-				factor = 0.05
-			}
-		}
+
 	}
 	
 	option = {
@@ -245,12 +225,7 @@ country_event = {
 			ideology = liberal
 			value = 0.5
 		}
-		any_pop = {
-			ideology = {
-				value = liberal
-				factor = 0.05
-			}
-		}
+
 	}
 	
 	option = {
@@ -275,7 +250,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 100
+		months = 50
 	}
 	
 	option = {
@@ -360,12 +335,7 @@ country_event = {
 			ideology = socialist
 			value = 0.5
 		}
-		any_pop = {
-			ideology = {
-				value = socialist
-				factor = 0.05
-			}
-		}
+
 	}
 	
 	option = {
@@ -389,14 +359,14 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 100
+		months = 50
 	}
 	
 	option = {
 		name = "EVTOPTA18090"
 		upper_house = {
 			ideology = liberal
-			value = 0.45
+			value = 0.5
 		}
 		any_pop = {
 			ideology = {
@@ -468,7 +438,6 @@ country_event = {
 	trigger = {
 		unemployment_subsidies = no_subsidies
 		social_reform_want = 0.1
-		average_militancy = 4
 		ruling_party_ideology = socialist
 	}
 	
@@ -508,7 +477,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 125
+		months = 50
 	}
 	
 	option = {
@@ -542,8 +511,8 @@ country_event = {
 	picture = "Upperhouse"
 	
 	trigger = {
-		 
-		ruling_party_ideology = communist 
+		is_ideology_enabled = communist
+		ruling_party_ideology = socialist
 
 	}
 	
@@ -554,12 +523,12 @@ country_event = {
 	option = {
 		name = "EVTOPTA18130"
 		upper_house = {
-			ideology = communist 
+			ideology = socialist
 			value = 0.5
 		}
 		any_pop = {
 			ideology = {
-				value = communist
+				value = socialist
 				factor = 0.05
 			}
 		}
@@ -568,9 +537,15 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTB18130"
-		scaled_militancy = {
-			ideology = communist 
-			factor = 4
+		upper_house = {
+			ideology = communist
+			value = 0.5
+		}
+		any_pop = {
+			ideology = {
+				value = communist
+				factor = 0.05
+			}
 		}
 	}
 }
@@ -708,12 +683,7 @@ country_event = {
 			ideology = socialist
 			value = 0.5
 		}
-		any_pop = {
-			ideology = {
-				value = socialist
-				factor = 0.05
-			}
-		}
+
 	}
 	
 	option = {
