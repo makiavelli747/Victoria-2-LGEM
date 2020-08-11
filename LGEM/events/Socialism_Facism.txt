@@ -754,18 +754,6 @@ country_event = {
 		}
 		modifier = {
 			factor = 0.9
-			average_militancy = 4
-		}
-		modifier = {
-			factor = 0.9
-			average_consciousness = 3
-		}
-		modifier = {
-			factor = 0.9
-			average_consciousness = 4
-		}
-		modifier = {
-			factor = 0.9
 			nationalvalue = nv_equality
 		}
 		modifier = {
@@ -797,10 +785,7 @@ country_event = {
 	option = {
 		name = "EVTOPTB17560"
 		any_pop = {
-			scaled_militancy = {
-				ideology = communist
-				factor = 5
-			}
+			militancy = 1
 		}
 	}
 }
