@@ -1713,6 +1713,7 @@ country_event = {
 	
 	trigger = {
 		is_ideology_enabled = fascist
+		fascist = 10
 		civilized = yes
 		OR = {
 			press_rights = censored_press
