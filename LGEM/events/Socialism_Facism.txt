@@ -1474,8 +1474,6 @@ country_event = {
 		name = "EVTOPTA17620"
 		random_state = {
 			poor_strata = {
-				consciousness = 1
-				militancy = 1
 				ideology = {
 					value = fascist
 					factor = 0.3
@@ -1488,8 +1486,8 @@ country_event = {
 		name = "EVTOPTB17620"
 		random_state = {
 			poor_strata = {
-				militancy = 4
-				consciousness = 2
+				militancy = 2
+				consciousness = 1
 			}
 		}
 	}
@@ -1510,7 +1508,6 @@ country_event = {
 		is_ideology_enabled = fascist
 		civilized = yes
 		fascist = 30
-		average_militancy = 4
 		OR = {
 			government = prussian_constitutionalism
 			government = democracy
@@ -1586,7 +1583,7 @@ country_event = {
 			}
 			scaled_militancy = {
 				ideology = fascist
-				factor = 8
+				factor = 5
 			}
 		}
 	}
@@ -1600,9 +1597,7 @@ country_event = {
 		political_reform = state_press
 		political_reform = state_controlled
 		political_reform = underground_parties
-		any_pop = {
-			militancy = 8
-		}
+
 	}
 }
 
@@ -1693,7 +1688,7 @@ country_event = {
 					value = fascist
 					factor = 0.4
 				}
-				militancy = 2
+
 			}
 		}
 	}
@@ -1702,8 +1697,8 @@ country_event = {
 		name = "EVTOPTB17640"
 		random_state = {
 			soldiers = {
-				militancy = 4
-				consciousness = 4
+				militancy = 2
+				consciousness = 2
 			}
 		}
 	}
@@ -1797,8 +1792,7 @@ country_event = {
 					value = fascist
 					factor = 0.2
 				}
-				militancy = 1
-				consciousness = 1
+
 			}
 		}
 	}
@@ -1811,8 +1805,7 @@ country_event = {
 					value = fascist
 					factor = 0.2
 				}
-				militancy = 1
-				consciousness = 1
+
 			}
 		}
 	}
@@ -2153,8 +2146,8 @@ country_event = {
 					value = fascist
 					factor = 0.3
 				}
-				militancy = 3
-				consciousness = 3
+				militancy = 1
+				consciousness = 1
 			}
 		}
 	}
@@ -2164,7 +2157,7 @@ country_event = {
 		any_pop = {
 			scaled_militancy = {
 				ideology = fascist
-				factor = 10
+				factor = 5
 			}
 		}
 		set_country_flag = paramilitaries_outlawed
@@ -2261,7 +2254,7 @@ country_event = {
 				}
 				scaled_militancy = {
 					ideology = fascist
-					factor = 10
+					factor = 5
 				}
 			}
 		}
