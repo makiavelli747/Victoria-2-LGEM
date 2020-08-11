@@ -13,10 +13,8 @@ country_event = {
 			government = absolute_monarchy
 		}
 		civilized = yes
-		political_parties = underground_parties
-		vote_franschise = none_voting
-		upper_house_composition = party_appointed
 		ruling_party_ideology = communist
+		communist = 40
 	}
 	
 	mean_time_to_happen = {
@@ -26,6 +24,9 @@ country_event = {
 	option = {
 		name = "EVTOPTA60000"
 		government = proletarian_dictatorship
+		political_parties = underground_parties
+		vote_franschise = none_voting
+		upper_house_composition = party_appointed
 	}
 }
 
@@ -36,18 +37,10 @@ country_event = {
 	picture = "Unite"
 	
 	trigger = {
-		NOT = {
-			government = proletarian_dictatorship
-			government = presidential_dictatorship
-			government = bourgeois_dictatorship
-			government = fascist_dictatorship
-			government = absolute_monarchy
-		}
+		government = democracy
 		civilized = yes
-		political_parties = underground_parties
-		vote_franschise = none_voting
-		upper_house_composition = party_appointed
 		ruling_party_ideology = reactionary
+		reactionary = 40
 	}
 	
 	mean_time_to_happen = {
@@ -57,6 +50,9 @@ country_event = {
 	option = {
 		name = "EVTOPTA60010"
 		government = presidential_dictatorship
+		political_parties = underground_parties
+		vote_franschise = none_voting
+		upper_house_composition = party_appointed
 	}
 }
 
@@ -75,10 +71,8 @@ country_event = {
 			government = absolute_monarchy
 		}
 		civilized = yes
-		political_parties = underground_parties
-		vote_franschise = none_voting
-		upper_house_composition = party_appointed
 		ruling_party_ideology = anarcho_liberal
+		anarcho_liberal = 40
 	}
 	
 	mean_time_to_happen = {
@@ -88,6 +82,9 @@ country_event = {
 	option = {
 		name = "EVTOPTA60020"
 		government = bourgeois_dictatorship
+		political_parties = underground_parties
+		vote_franschise = none_voting
+		upper_house_composition = party_appointed
 	}
 }
 
@@ -106,10 +103,8 @@ country_event = {
 			government = absolute_monarchy
 		}
 		civilized = yes
-		political_parties = underground_parties
-		vote_franschise = none_voting
-		upper_house_composition = party_appointed
 		ruling_party_ideology = fascist
+		fascist = 40
 	}
 	
 	mean_time_to_happen = {
@@ -119,6 +114,9 @@ country_event = {
 	option = {
 		name = "EVTOPTA60030"
 		government = fascist_dictatorship
+		political_parties = underground_parties
+		vote_franschise = none_voting
+		upper_house_composition = party_appointed
 	}
 }
 
@@ -264,12 +262,9 @@ country_event = {
 	
 	trigger = {
 		government = democracy
-		vote_franschise = none_voting
-		OR = {
-			ruling_party_ideology = liberal
-			ruling_party_ideology = anarcho_liberal
-		}
 		civilized = yes
+		ruling_party_ideology = anarcho_liberal
+		anarcho_liberal = 40
 	}
 	
 	mean_time_to_happen = {
@@ -279,6 +274,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA60080"
 		government = bourgeois_dictatorship
+		vote_franschise = none_voting
 	}
 }
 
@@ -290,11 +286,8 @@ country_event = {
 	
 	trigger = {
 		government = democracy
-		vote_franschise = none_voting
-		OR = {
-			ruling_party_ideology = socialist
-			ruling_party_ideology = communist
-		}
+		ruling_party_ideology = communist
+		communist = 40
 		civilized = yes
 	}
 	
@@ -305,6 +298,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA60080"
 		government = proletarian_dictatorship
+		vote_franschise = none_voting
 	}
 }
 
@@ -316,8 +310,8 @@ country_event = {
 	
 	trigger = {
 		government = democracy
-		vote_franschise = none_voting
 		ruling_party_ideology = fascist
+		fascist = 40
 		civilized = yes
 	}
 	
@@ -328,6 +322,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA60080"
 		government = fascist_dictatorship
+		vote_franschise = none_voting
 	}
 }
 
