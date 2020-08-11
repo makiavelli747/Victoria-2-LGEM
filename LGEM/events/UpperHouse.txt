@@ -496,9 +496,11 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTB18120"
-		prestige = -5
 		any_pop = {
-			militancy = 1
+			ideology = {
+				value = reactionary
+				factor = 0.05
+			}
 		}
 	}
 }
