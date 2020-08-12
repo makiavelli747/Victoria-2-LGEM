@@ -36,8 +36,8 @@ plane = {
 
 	#Land Abilties
 	reconnaissance = 4
-	attack = 1
-	defence = 10
+	attack = 4
+	defence = 40
 	discipline = 0.1
 	support = 2
 	maneuver = 2
