@@ -28,7 +28,7 @@ country = {
 	COLONY_TO_STATE_PRESTIGE_GAIN = 10, -- Prestige gain when turning colony to state
 	COLONIAL_LIFERATING = 35,
 	BASE_GREATPOWER_DAILY_INFLUENCE = 0.0, -- Influence value which is distributed each day
-	AI_SUPPORT_REFORM = 0.01, -- At least this many % needs to support a reform for the AI to take it
+	AI_SUPPORT_REFORM = 0.0, -- At least this many % needs to support a reform for the AI to take it
 	BASE_MONTHLY_DIPLOPOINTS = 0.3, -- Base value gain for diplomatic actions each month
 	DIPLOMAT_TRAVEL_TIME = 14,
 	PROVINCE_OVERSEAS_PENALTY = 0.005, -- Each province req. this many goods flagged as overseas penalty 
@@ -667,7 +667,7 @@ pops = {
 	MIL_TO_JOIN_RISING = 8, -- Rebels over this will join a general rising
 	MIL_TO_AUTORISE = 9, -- Rebels over this rise no matter what
 	REDUCTION_AFTER_RISEING = 0.0, -- After a pop spawns a rebellion, its militancy will be reduced this much
-	REDUCTION_AFTER_DEFEAT = 5.0, -- After a rebellion is being defeated in combat, its pop militancy will be divided by this number.
+	REDUCTION_AFTER_DEFEAT = 10, -- After a rebellion is being defeated in combat, its pop militancy will be divided by this number.
 																-- (if value < 1.0, the MIL will be increased) (Beware! value must be > 0)
 	
 	POP_TO_LEADERSHIP = 0.0001, -- how much leadership every 1000 officers gives each day.
