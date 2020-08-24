@@ -373,22 +373,22 @@ social_reforms = {
 		no_minimum_wage = {
 		}
 		trinket_wage = {
-			minimum_wage = 1.25
+			minimum_wage = 1.5
 			administrative_multiplier = 1
 			global_immigrant_attract = 0.01
 		}
 		low_minimum_wage = {
-			minimum_wage = 2.5
+			minimum_wage = 3
 			administrative_multiplier = 2
 			global_immigrant_attract = 0.02
 		}
 		acceptable_minimum_wage = {
-			minimum_wage = 3.75
+			minimum_wage = 4.5
 			administrative_multiplier = 3
 			global_immigrant_attract = 0.03
 		}
 		good_minimum_wage = {
-			minimum_wage = 5
+			minimum_wage = 6
 			administrative_multiplier = 4
 			global_immigrant_attract = 0.04
 		}
@@ -492,19 +492,19 @@ social_reforms = {
 		no_pensions = {
 		}
 		trinket_pensions = {
-			pension_level	= 1.25
+			pension_level	= 2
 			global_immigrant_attract = 0.01
 		}
 		low_pensions = {
-			pension_level	= 2.5
+			pension_level	= 4
 			global_immigrant_attract = 0.02
 		}
 		acceptable_pensions = {
-			pension_level	= 3.75
+			pension_level	= 6
 			global_immigrant_attract = 0.03
 		}
 		good_pensions = {
-			pension_level	= 5
+			pension_level	= 8
 			global_immigrant_attract = 0.04
 		}
 	}	
