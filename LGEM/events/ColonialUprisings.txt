@@ -550,7 +550,7 @@ province_event = {
 				limit = {
 					is_state_religion = no
 				}
-				militancy = 3
+				militancy = 1
 			}
 		}
 	}
@@ -562,8 +562,7 @@ province_event = {
 				limit = {
 					is_state_religion = no
 				}
-				militancy = 2
-				consciousness = 1
+				consciousness = 2
 			}
 		}
 	}
