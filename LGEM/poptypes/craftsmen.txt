@@ -723,10 +723,6 @@ promote_to =
 	}
 	clerks = {
 		factor = 0.01
-			modifier = {
-				factor = -100
-				state_scope = { clerks = 0.12 }
-			}
 	
 			modifier = {
 				factor =  -50
