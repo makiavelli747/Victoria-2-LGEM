@@ -34,30 +34,13 @@ luxury_needs_income = {
 }
 
 luxury_needs = {
-	opium = 2
-	small_arms = 2
-	luxury_clothes = 1
-	luxury_furniture = 1
-	telephones = 4
-	automobiles = 3
-	wine = 20
-	radio = 4
-	fuel = 3
-	tobacco = 10
-	coffee = 10
+	small_arms = 10
 }
 
 everyday_needs = {
-	liquor = 5
-	regular_clothes = 5
-	furniture = 4
-	paper = 10
-	glass = 3
-	tobacco = 5
-	coffee = 2
-	tea = 10
-	steel = 3
-	wine = 1
+	ammunition = 4
+	canned_food = 4
+	small_arms = 2
 }
 
 life_needs = {
