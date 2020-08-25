@@ -562,7 +562,7 @@ province_event = {
 				limit = {
 					is_state_religion = no
 				}
-				consciousness = 2
+				consciousness = 1
 			}
 		}
 	}
