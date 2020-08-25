@@ -2079,8 +2079,8 @@ country_event = {
 				is_core = HND
 			}
 			any_pop = {
-				militancy = 3
-				consciousness = 1
+				militancy = 1
+				
 			}
 		}
 		set_global_flag = doctrine_of_lapse_has_been_used
