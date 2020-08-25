@@ -51,7 +51,7 @@ romanticism = {
 			literacy = 0.6
 		}		
 		modifier = {
-			factor = 2
+			factor = 1.5
 			tech_school = culture_tech_school
 		}
 	}
@@ -79,7 +79,7 @@ realism = {
 			literacy = 0.6
 		}		
 		modifier = {
-			factor = 2
+			factor = 1.5
 			tech_school = culture_tech_school
 		}
 	}
@@ -106,7 +106,7 @@ impressionism = {
 			literacy = 0.6
 		}		
 		modifier = {
-			factor = 2
+			factor = 1.5
 			tech_school = culture_tech_school
 		}
 	}
@@ -133,7 +133,7 @@ expressionism = {
 			literacy = 0.6
 		}		
 		modifier = {
-			factor = 2
+			factor = 1.5
 			tech_school = culture_tech_school
 		}
 	}
@@ -160,7 +160,7 @@ mass_culture_n_the_avant_garde = {
 			literacy = 0.6
 		}		
 		modifier = {
-			factor = 2
+			factor = 1.5
 			tech_school = culture_tech_school
 		}
 	}
