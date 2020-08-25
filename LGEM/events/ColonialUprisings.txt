@@ -242,7 +242,7 @@ country_event = {
 			state_scope = {
 				bureaucrats = {
 					consciousness = 1
-					militancy = 2
+					militancy = 1
 				}
 			}
 		}
@@ -256,8 +256,8 @@ country_event = {
 			}
 			any_owned = {
 				any_pop = {
-					militancy = 2
-					consciousness = 1
+					militancy = 1
+					
 				}
 			}
 		}
@@ -446,7 +446,7 @@ country_event = {
 				is_colonial = yes
 			}
 			any_pop = {
-				militancy = 2
+				militancy = 1
 			}
 		}
 	}
@@ -577,7 +577,7 @@ province_event = {
 	trigger = {
 		is_colonial = yes
 		is_primary_culture = no
-		average_militancy = 2
+		average_militancy = 4
 		has_pop_type = soldiers
 	}
 	
@@ -589,11 +589,11 @@ province_event = {
 		}
 		modifier = {
 			factor = 0.9
-			average_militancy = 4
+			average_militancy = 5
 		}
 		modifier = {
 			factor = 0.9
-			average_militancy = 5
+			average_militancy = 6
 		}
 		modifier = {
 			factor = 2
@@ -649,7 +649,7 @@ country_event = {
 	trigger = {
 		colonial_nation = yes
 		average_consciousness = 4
-		average_militancy = 2
+		average_militancy = 4
 	}
 	
 	mean_time_to_happen = {
@@ -901,7 +901,7 @@ country_event = {
 				is_colonial = yes
 			}
 			any_pop = {
-				militancy = 2
+				militancy = 1
 			}
 		}
 	}
@@ -913,7 +913,7 @@ country_event = {
 				is_colonial = yes
 			}
 			any_pop = {
-				consciousness = 2
+				consciousness = 1
 			}
 		}
 	}
