@@ -18,17 +18,17 @@ rebel =
 
 life_needs_income = {
 	type = military
-	weight = 1.5
+	weight = 1
 }
 
 everyday_needs_income = {
 	type = military
-	weight = 1.5
+	weight = 1
 }
 
 luxury_needs_income =
 {
-	type = military
+	type = reforms
 	weight = 1
 }
 
