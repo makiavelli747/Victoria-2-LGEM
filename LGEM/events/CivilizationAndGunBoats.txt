@@ -372,7 +372,7 @@ province_event = {
 	option = {
 		name = "EVTOPTB13030"
 		any_pop = {
-			militancy = 4
+			militancy = 1
 		}
 		owner = { treasury = 5000 }
 	}
@@ -469,8 +469,8 @@ province_event = {
 	option = {
 		name = "EVTOPTB13040"
 		any_pop = {
-			consciousness = 3
-			militancy = 3
+			consciousness = 1
+			militancy = 1
 		}
 	}
 }
@@ -788,7 +788,7 @@ province_event = {
 					type = aristocrats
 				}
 				consciousness = 1
-				militancy = 2
+				militancy = 1
 			}
 		}
 	}
@@ -796,7 +796,7 @@ province_event = {
 	option = {
 		name = "EVTOPTB13080"
 		owner = {
-			treasury = -50
+			treasury = -5000
 		}
 	}
 
@@ -908,7 +908,7 @@ province_event = {
 		name = "EVTOPTA13100"
 		state_scope = {
 			any_pop = {
-				militancy = 5
+				militancy = 1
 			}
 			any_owned = {
 				remove_province_modifier = foreign_trading_post
@@ -1015,7 +1015,7 @@ country_event = {
 		political_reform = no_slavery
 		prestige = 5
 		any_pop = {
-			militancy = 3
+			militancy = 1
 		}
 	}
 }
@@ -1849,8 +1849,8 @@ province_event = {
 		name = "EVTOPTA13280"
 		state_scope = {
 			aristocrats = {
-				consciousness = 2
-				militancy = 3
+				consciousness = 1
+				militancy = 1
 			}
 		}
 	}
