@@ -239,10 +239,7 @@ promote_to =
 
 	clerks = {
 		factor = 0.01
-			modifier = {
-				factor = -100
-				state_scope = { clerks = 0.12 }
-			}
+
 	
 			modifier = {
 				factor =  -50
@@ -511,7 +508,7 @@ promote_to =
 				state_scope = { bureaucrats = 0.07 }
 			}
 			modifier = {
-				factor = -100
+				factor = -2
 				state_scope = { bureaucrats = 0.08 }
 			}
 		}
@@ -597,7 +594,15 @@ promote_to =
 		group = {
 			modifier = {
 				factor = 2
+				crime_fighting = 0.05
+			}
+			modifier = {
+				factor = 2
 				crime_fighting = 0.1
+			}
+			modifier = {
+				factor = 2
+				crime_fighting = 0.15
 			}
 			modifier = {
 				factor = 2
@@ -605,7 +610,15 @@ promote_to =
 			}
 			modifier = {
 				factor = 2
+				crime_fighting = 0.25
+			}
+			modifier = {
+				factor = 2
 				crime_fighting = 0.3
+			}
+			modifier = {
+				factor = 2
+				crime_fighting = 0.35
 			}
 			modifier = {
 				factor = 2
@@ -613,27 +626,11 @@ promote_to =
 			}
 			modifier = {
 				factor = 2
+				crime_fighting = 0.45
+			}
+			modifier = {
+				factor = 2
 				crime_fighting = 0.5
-			}
-			modifier = {
-				factor = 2
-				crime_fighting = 0.6
-			}
-			modifier = {
-				factor = 2
-				crime_fighting = 0.7
-			}
-			modifier = {
-				factor = 2
-				crime_fighting = 0.8
-			}
-			modifier = {
-				factor = 2
-				crime_fighting = 0.9
-			}
-			modifier = {
-				factor = 2
-				crime_fighting = 0.99
 			}
 		}
 	}
@@ -669,7 +666,15 @@ promote_to =
 		group = {
 			modifier = {
 				factor = 2
+				education_spending = 0.05
+			}
+			modifier = {
+				factor = 2
 				education_spending = 0.1
+			}
+			modifier = {
+				factor = 2
+				education_spending = 0.15
 			}
 			modifier = {
 				factor = 2
@@ -677,7 +682,15 @@ promote_to =
 			}
 			modifier = {
 				factor = 2
+				education_spending = 0.25
+			}
+			modifier = {
+				factor = 2
 				education_spending = 0.3
+			}
+			modifier = {
+				factor = 2
+				education_spending = 0.35
 			}
 			modifier = {
 				factor = 2
@@ -685,27 +698,11 @@ promote_to =
 			}
 			modifier = {
 				factor = 2
+				education_spending = 0.45
+			}
+			modifier = {
+				factor = 2
 				education_spending = 0.5
-			}
-			modifier = {
-				factor = 2
-				education_spending = 0.6
-			}
-			modifier = {
-				factor = 2
-				education_spending = 0.7
-			}
-			modifier = {
-				factor = 2
-				education_spending = 0.8
-			}
-			modifier = {
-				factor = 2
-				education_spending = 0.9
-			}
-			modifier = {
-				factor = 2
-				education_spending =0.99
 			}
 		}
 		group = {		
@@ -968,20 +965,7 @@ promote_to =
 			factor = 5.0
 			soldiers = 0.03
 		}
-		modifier = {
-			factor = 5.0
-			not = { luxury_needs = 0.1 }
-		}
-		modifier = {
-			factor = 5.0
-			NOT = {
-				location = {
-					work_available = {
-						worker = craftsmen
-					}
-				}
-			}
-		}
+
 	}
 #	labourers = 
 #	{

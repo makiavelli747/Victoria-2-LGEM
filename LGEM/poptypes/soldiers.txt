@@ -49,7 +49,9 @@ life_needs = {
 }
 
 luxury_needs = {	
-	small_arms = 5
+	ammunition = 2
+	canned_food = 2
+	small_arms = 1
 }
 
 
