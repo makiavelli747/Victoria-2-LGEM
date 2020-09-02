@@ -63,6 +63,7 @@ life_needs = {
 	fruit =  3
 	grain =  6
 	timber = 2
+	coal = 2
 }
 
 
