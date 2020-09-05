@@ -1,5 +1,5 @@
-owner = MOD
-controller = MODadd_core = MOD
+owner = TUS
+controller = TUSadd_core = TUS
 add_core = ITA
 trade_goods = grain
 life_rating = 35
