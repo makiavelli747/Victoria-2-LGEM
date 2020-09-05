@@ -457,7 +457,7 @@ stormtrooper_training = {
 		engineer = {
 			attack = 4
 			defence = 4
-			siege = 4				
+			siege = 1				
 		}
 		army_base = {
 			supply_consumption = 0.05
