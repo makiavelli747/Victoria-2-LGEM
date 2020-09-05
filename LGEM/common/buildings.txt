@@ -597,7 +597,7 @@ naval_base = {
 	type = naval_base
 	goods_cost =
 	{
-		cement = 6000
+		cement = 8000
 
 	}
 	time = 1080
