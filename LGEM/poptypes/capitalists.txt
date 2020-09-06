@@ -27,6 +27,7 @@ everyday_needs = {
 	wine = 100
 	tobacco = 200 
 	coffee = 200
+	coal = 2
 }
 
 life_needs = {
@@ -36,7 +37,6 @@ life_needs = {
 	fruit =  3
 	grain =  6
 	timber = 2
-	coal = 2
 }
 
 

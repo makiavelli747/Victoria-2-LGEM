@@ -17,6 +17,7 @@ everyday_needs = {
 	regular_clothes = 6
 	furniture = 5
 	steel = 2
+	coal = 2
 }
 
 life_needs = {
@@ -26,7 +27,6 @@ life_needs = {
 	fruit =  3
 	grain =  6
 	timber = 2
-	coal = 2
 }
 
 
