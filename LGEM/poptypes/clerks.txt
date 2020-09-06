@@ -38,6 +38,7 @@ everyday_needs = {
 	furniture = 4
 	paper = 10
 	glass = 4
+	wine = 2
 	tobacco = 5
 	tea = 10
 	coffee = 2

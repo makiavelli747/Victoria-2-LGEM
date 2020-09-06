@@ -11,6 +11,7 @@ everyday_needs = {
 	tea = 10
 	tobacco = 2
 	coffee = 1
+	wine = 1
 	liquor = 5
 	regular_clothes = 4
 	furniture = 3
