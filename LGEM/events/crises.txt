@@ -38,7 +38,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen =  {
-		months = 50
+		months = 250
 
 		modifier = {
 			factor = 0.5
@@ -92,7 +92,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen =  {
-		months = 50
+		months = 250
 
 		modifier = {
 			factor = 0.5
@@ -144,7 +144,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen =  {
-		months = 6
+		months = 24
 
 		modifier = {
 			factor = 0.5
@@ -194,7 +194,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen =  {
-		months = 6
+		months = 24
 
 		modifier = {
 			factor = 0.5
@@ -244,7 +244,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen =  {
-		months = 6
+		months = 24
 
 		modifier = {
 			factor = 0.5
@@ -294,7 +294,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen =  {
-		months = 6
+		months = 24
 
 		modifier = {
 			factor = 0.5
