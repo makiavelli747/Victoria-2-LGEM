@@ -98,7 +98,7 @@ country_event = {
 		name = "EVTOPTB17500"
 		random_state = {
 			any_pop = {
-				militancy = 3
+				militancy = 1
 				consciousness = 1
 			}
 		}
@@ -568,8 +568,8 @@ country_event = {
 					value = socialist
 					factor = 0.15
 				}
-				consciousness = 2
-				militancy = 1
+				consciousness = 1
+				
 			}
 		}
 
@@ -581,10 +581,10 @@ country_event = {
 			any_pop = {
 				ideology = {
 					value = socialist
-					factor = 0.05
+					factor = 0.01
 				}
-				consciousness = 1
-				militancy = 2
+				
+				militancy = 1
 			}
 		}
 	}
@@ -777,7 +777,7 @@ country_event = {
 		any_pop = {
 			ideology = {
 				value = communist
-				factor = 0.05
+				factor = 0.1
 			}
 		}
 	}
@@ -884,7 +884,7 @@ country_event = {
 			poor_strata = {
 				ideology = {
 					value = socialist
-					factor = 0.5
+					factor = 0.3
 				}
 			}
 		}
@@ -899,7 +899,7 @@ country_event = {
 			any_pop = {
 				ideology = {
 					value = socialist
-					factor = 0.1
+					factor = 0.03
 				}
 			}
 		}
@@ -1018,8 +1018,8 @@ country_event = {
 		name = "EVTOPTB17580"
 		random_state = {
 			rich_strata = {
-				militancy = 2
-				consciousness = 2
+				militancy = 1
+				consciousness = 1
 			}
 		}
 	}
@@ -1119,7 +1119,7 @@ country_event = {
 			poor_strata = {
 				ideology = {
 					value = socialist
-					factor = 0.4
+					factor = 0.3
 				}
 			}
 		}
@@ -1129,8 +1129,8 @@ country_event = {
 		name = "EVTOPTB17590"
 		random_state = {
 			rich_strata = {
+				
 				consciousness = 1
-				militancy = 2
 			}
 		}
 	}
