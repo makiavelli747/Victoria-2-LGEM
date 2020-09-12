@@ -23,7 +23,7 @@ country_event = {
 		any_pop = {
 			ideology = {
 				value = communist
-				factor = 0.05
+				factor = 0.1
 			}
 		}
 
@@ -262,7 +262,7 @@ country_event = {
 		any_pop = {
 			ideology = {
 				value = reactionary
-				factor = 0.05
+				factor = 0.1
 			}
 		}
 	}
@@ -371,7 +371,7 @@ country_event = {
 		any_pop = {
 			ideology = {
 				value = liberal
-				factor = 0.05
+				factor = 0.1
 			}
 		}
 	}
@@ -381,7 +381,7 @@ country_event = {
 		any_pop = {
 			ideology = {
 				value = anarcho_liberal
-				factor = 0.05
+				factor = 0.1
 			}
 		}
 	}
@@ -489,7 +489,7 @@ country_event = {
 		any_pop = {
 			ideology = {
 				value = conservative
-				factor = 0.05
+				factor = 0.1
 			}
 		}
 	}
@@ -499,7 +499,7 @@ country_event = {
 		any_pop = {
 			ideology = {
 				value = reactionary
-				factor = 0.05
+				factor = 0.1
 			}
 		}
 	}
@@ -531,7 +531,7 @@ country_event = {
 		any_pop = {
 			ideology = {
 				value = socialist
-				factor = 0.05
+				factor = 0.1
 			}
 		}
 
@@ -546,7 +546,7 @@ country_event = {
 		any_pop = {
 			ideology = {
 				value = communist
-				factor = 0.05
+				factor = 0.1
 			}
 		}
 	}
@@ -575,7 +575,7 @@ country_event = {
 		any_pop = {
 			ideology = {
 				value = fascist
-				factor = 0.05
+				factor = 0.1
 			}
 		}
 	}
@@ -798,7 +798,7 @@ country_event = {
 		any_pop = {
 			ideology = {
 				value = anarcho_liberal
-				factor = 0.05
+				factor = 0.1
 			}
 		}
 	}
