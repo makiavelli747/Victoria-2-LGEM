@@ -572,8 +572,8 @@ dye_factory = {
 liquor_distillery = {       
 	template = cheap_factory_template
 	input_goods = {        
-		grain = 5		#11
-		glass = 4		#11.6	total input+maint = 26.6
+		grain = 7.5		#11
+		glass = 2		#11.6	total input+maint = 26.6
 	}
 	output_goods = liquor 
 	value = 5			#32
@@ -590,8 +590,8 @@ liquor_distillery = {
 winery = {       
 	template = cheap_factory_template
 	input_goods = {  	
-		fruit = 5		#9
-		glass = 5		#14.5	total input+maint = 27.5
+		fruit = 9		#9
+		glass = 2.5		#14.5	total input+maint = 27.5
 	}
 	output_goods = wine 
 	value = 3.5			#34
@@ -1285,8 +1285,8 @@ artisan_canned_food = {
 
 artisan_liquor = {       
 	input_goods = {        
-		grain = 10		#22
-		glass = 8		#23.2	total input+maint = 55
+		grain = 15		#22
+		glass = 4		#23.2	total input+maint = 55
 	}
 	output_goods = liquor 
 	value = 10			#64
@@ -1304,8 +1304,8 @@ artisan_liquor = {
 artisan_winery = {       
 
 	input_goods = {  	
-		fruit = 10		#18
-		glass = 10		#29	total input+maint = 57
+		fruit = 18		#18
+		glass = 5		#29	total input+maint = 47
 	}
 	output_goods = wine 
 	value = 7			#67.9
