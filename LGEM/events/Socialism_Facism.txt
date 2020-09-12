@@ -1129,7 +1129,7 @@ country_event = {
 		name = "EVTOPTB17590"
 		random_state = {
 			rich_strata = {
-				
+				militancy = 1
 				consciousness = 1
 			}
 		}
