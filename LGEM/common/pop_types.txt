@@ -385,6 +385,24 @@ migration_chance =
 		}
 	}
 
+	group = {
+		modifier = {
+			factor = -0.1
+			everyday_needs = 0.6
+		}
+		modifier = {
+			factor = -0.1
+			everyday_needs = 0.7 
+		}
+		modifier = {
+			factor = -0.1
+			everyday_needs = 0.8 
+		}
+		modifier = {
+			factor = -0.1
+			everyday_needs = 0.9
+		}
+	}
 
 	modifier = {
 		factor = -0.2
@@ -500,6 +518,24 @@ colonialmigration_chance =
 		}
 	}
 
+	group = {
+		modifier = {
+			factor = -0.1
+			everyday_needs = 0.6
+		}
+		modifier = {
+			factor = -0.1
+			everyday_needs = 0.7 
+		}
+		modifier = {
+			factor = -0.1
+			everyday_needs = 0.8 
+		}
+		modifier = {
+			factor = -0.1
+			everyday_needs = 0.9
+		}
+	}
 
 	modifier = {
 		factor = -0.2
@@ -658,8 +694,8 @@ emigration_chance =
 		
 	}
 	modifier = {
-		factor = 0.1
-		not = { agree_with_ruling_party = 0.3 }
+		factor = -0.1
+		agree_with_ruling_party = 0.3 
 	}
 
 	modifier = {
