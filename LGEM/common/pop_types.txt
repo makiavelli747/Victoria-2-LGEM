@@ -694,8 +694,8 @@ emigration_chance =
 		
 	}
 	modifier = {
-		factor = 0.1
-		not = { agree_with_ruling_party = 0.3 }
+		factor = -0.1
+		agree_with_ruling_party = 0.3 
 	}
 
 	modifier = {
