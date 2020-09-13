@@ -1214,42 +1214,42 @@ ideologies = {
 			
 		}
 		modifier = {
-			factor = 1.5
+			factor = 1.25
 			everyday_needs = 0.2
 			ruling_party_ideology = communist 
 		}
 		modifier = {
-			factor = 1.5
+			factor = 1.25
 			everyday_needs = 0.4
 			ruling_party_ideology = communist 
 		}
 		modifier = {
-			factor = 1.5
+			factor = 1.25
 			everyday_needs = 0.6
 			ruling_party_ideology = communist 
 		}
 		modifier = {
-			factor = 1.5
+			factor = 1.25
 			everyday_needs = 0.8
 			ruling_party_ideology = communist 
 		}
 		modifier = {
-			factor = 1.5
+			factor = 1.25
 			NOT = { everyday_needs = 0.8 }
 			ruling_party_ideology = socialist 
 		}
 		modifier = {
-			factor = 1.5
+			factor = 1.25
 			NOT = { everyday_needs = 0.6 }
 			ruling_party_ideology = socialist 
 		}
 		modifier = {
-			factor = 1.5
+			factor = 1.25
 			NOT = { everyday_needs = 0.4 }
 			ruling_party_ideology = socialist 
 		}
 		modifier = {
-			factor = 1.5
+			factor = 1.25
 			NOT = { everyday_needs = 0.2 }
 			ruling_party_ideology = socialist 
 		}
@@ -1324,7 +1324,7 @@ ideologies = {
 	anarcho_liberal = {
 		factor = 1
 		modifier = {
-			factor = 3
+			factor = 2
 			nationalvalue = nv_liberty
 		}
 		modifier = {
