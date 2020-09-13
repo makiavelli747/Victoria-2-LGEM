@@ -107,7 +107,7 @@ country_migration_target =
 		unemployment = 0.5
 	}
 	modifier = {
-		factor = 1.2
+		factor = 2
 		is_greater_power = yes
 	}
 	modifier = {
