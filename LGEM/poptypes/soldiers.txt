@@ -392,10 +392,7 @@ ideologies = {
 	
 	reactionary = {
 		factor = 1
-		modifier = {
-			factor = 2
-			nationalvalue = nv_order
-		}
+
 		modifier = {
 			factor = 1.2
 			everyday_needs = 0.1
@@ -462,33 +459,7 @@ ideologies = {
 			factor = 1.2
 			NOT = { consciousness = 1 }
 		}
-		modifier = {
-			factor = 1.2
-			NOT = {	literacy = 0.5	}
-			
-		}
 
-		modifier = {
-			factor = 1.2
-			NOT = {	literacy = 0.40	}
-			
-		}
-
-		modifier = {
-			factor = 1.2
-			NOT = {	literacy = 0.30	}
-			
-		}
-		modifier = {
-			factor = 1.2
-			NOT = {	literacy = 0.2	}
-			
-		}
-		modifier = {
-			factor = 1.2
-			NOT = {	literacy = 0.1	}
-			
-		}
 		
 		
 	}
@@ -541,29 +512,7 @@ ideologies = {
 			factor = 2
 			nationalvalue = nv_order
 		}
-		modifier = {
-			factor = 1.2
-			literacy = 0.5	
-		}
 
-		modifier = {
-			factor = 1.2
-			literacy = 0.60	
-		}
-		modifier = {
-			factor = 1.2
-			literacy = 0.70	
-		}
-		modifier = {
-			factor = 1.2
-			literacy = 0.80
-			
-		}
-		modifier = {
-			factor = 1.2
-			literacy = 0.90
-			
-		}
 
 	}
 
