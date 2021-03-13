@@ -90,6 +90,10 @@ country_migration_target =
 		is_greater_power = yes
 	}
 	modifier = {
+		factor = 1.5
+		is_secondary_power = yes
+	}
+	modifier = {
 		factor = 1.05
 		vote_franschise = wealth_voting
 	}

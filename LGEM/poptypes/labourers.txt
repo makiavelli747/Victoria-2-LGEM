@@ -88,6 +88,10 @@ country_migration_target =
 		is_greater_power = yes
 	}
 	modifier = {
+		factor = 1.5
+		is_secondary_power = yes
+	}
+	modifier = {
 		factor = 2.0
 		has_pop_culture = THIS
 	}
