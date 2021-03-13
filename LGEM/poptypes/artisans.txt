@@ -93,6 +93,10 @@ country_migration_target =
 		has_pop_culture = THIS
 	}
 	modifier = {
+		factor = 2.0
+		is_greater_power = yes
+	}
+	modifier = {
 		factor = 1.05
 		vote_franschise = wealth_voting
 	}
@@ -105,8 +109,15 @@ country_migration_target =
 		vote_franschise = universal_voting
 	}
 	modifier = {
-		factor = 2.0
+		factor = 1.5
 		government = democracy
+	}
+	modifier = {
+		factor = 2.0
+		OR = { 
+			continent = north_america
+			continent = south_america
+		}
 	}
 		modifier = {
 		factor = 0.1
