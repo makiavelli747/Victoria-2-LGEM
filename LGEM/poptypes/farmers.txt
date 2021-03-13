@@ -106,7 +106,7 @@ country_migration_target =
 		government = democracy
 	}
 	modifier = {
-		factor = 1.5
+		factor = 2.0
 		OR = { 
 			continent = north_america
 			continent = south_america
