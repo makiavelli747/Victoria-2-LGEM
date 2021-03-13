@@ -82,15 +82,15 @@ country_migration_target =
 		unemployment = 0.5
 	}
 	modifier = {
-		factor = 2.0
+		factor = 1.5
 		has_pop_culture = THIS
 	}
 	modifier = {
-		factor = 2.0
+		factor = 1.5
 		is_greater_power = yes
 	}
 	modifier = {
-		factor = 1.5
+		factor = 1.25
 		is_secondary_power = yes
 	}
 	modifier = {
@@ -106,11 +106,11 @@ country_migration_target =
 		vote_franschise = universal_voting
 	}
 	modifier = {
-		factor = 1.5
+		factor = 1.25
 		government = democracy
 	}
 	modifier = {
-		factor = 2.0
+		factor = 1.5
 		OR = { 
 			continent = north_america
 			continent = south_america
