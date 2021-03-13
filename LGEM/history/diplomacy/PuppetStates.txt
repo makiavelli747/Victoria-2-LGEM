@@ -202,13 +202,7 @@ vassal = {
 	end_date = 1837.1.1
 }
 
-# Austria-Saxony
-vassal = {
-	first = AUS
-	second = SAX
-	start_date = 1814.10.1
-	end_date = 1837.1.1
-}
+
 
 # Austria-Parma
 vassal = {
