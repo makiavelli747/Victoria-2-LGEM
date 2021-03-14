@@ -349,8 +349,7 @@ political_decisions = {
 		}
 		
 		allow = {
-			is_greater_power = yes
-			prestige = 20
+			rank = 10
 			war = no
 			ITA = {
 				all_core = {
