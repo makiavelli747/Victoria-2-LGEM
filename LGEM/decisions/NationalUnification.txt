@@ -349,7 +349,7 @@ political_decisions = {
 		}
 		
 		allow = {
-			rank = 10
+			rank = 12
 			war = no
 			ITA = {
 				all_core = {
