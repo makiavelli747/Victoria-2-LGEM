@@ -1,7 +1,6 @@
-owner = AUS
-controller = AUS
+owner = SAX
+controller = SAX
 add_core = SAX
 add_core = GER
-add_core = NGF
 trade_goods = coal
 life_rating = 40
