@@ -2,5 +2,6 @@ owner = AUS
 controller = AUS
 add_core = SAX
 add_core = GER
+add_core = NGF
 trade_goods = iron
 life_rating = 40
